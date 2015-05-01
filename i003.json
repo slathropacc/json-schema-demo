@@ -10,7 +10,7 @@
 	"Hypertension": 0,
 	"InsNone": true,
 	"ZipCode": "12345",
-	"ZipCodeNA": false,	
+	"ZipCodeNA": false,
 	"NCDRPatientID": {
 		"$numberLong": "104487"
 	},
@@ -30,7 +30,7 @@
 	"Smoker": 1,
 	"SystemAlert": false,
 	"UpdatedBy": 19821,
-	"UpdatedByName": "Soe Tun",
+	"UpdatedByName": "Soe Smith",
 	"UpdatedDate": {
 		"$date": "2011-08-24T21:24:45.420Z"
 	},
@@ -83,7 +83,7 @@
 				"PostTamponade": 1,
 				"PostTransfusion": 1,
 				"UpdatedBy": 19685,
-				"UpdatedByName": "Soe Tun",
+				"UpdatedByName": "Soe Smith",
 				"UpdatedDate": {
 					"$date": "2011-04-13T17:44:28.860Z"
 				}
@@ -122,7 +122,7 @@
 						"$numberLong": "125"
 					},
 					"UpdatedBy": 19685,
-					"UpdatedByName": "Soe Tun",
+					"UpdatedByName": "Soe Smith",
 					"UpdatedDate": {
 						"$date": "2011-04-13T17:44:20.170Z"
 					},
@@ -154,7 +154,7 @@
 							"PreProcTIMI": 3,
 							"StenosisPriorTreat": 100,
 							"UpdatedBy": 19685,
-							"UpdatedByName": "Soe Tun",
+							"UpdatedByName": "Soe Smith",
 							"UpdatedDate": {
 								"$date": "2011-06-22T19:34:42.693Z"
 							}
@@ -173,7 +173,7 @@
 							"PreProcTIMI": 3,
 							"StenosisPriorTreat": 90,
 							"UpdatedBy": 19685,
-							"UpdatedByName": "Soe Tun",
+							"UpdatedByName": "Soe Smith",
 							"UpdatedDate": {
 								"$date": "2011-06-22T19:52:02.760Z"
 							}
@@ -188,7 +188,7 @@
 							"MedAdmin": 0,
 							"MedID": 2,
 							"UpdatedBy": 19881,
-							"UpdatedByName": "Jerry Xiao",
+							"UpdatedByName": "Jerry Jones",
 							"UpdatedDate": {
 								"$date": "2011-09-16T18:39:28.637Z"
 							},
@@ -202,7 +202,7 @@
 							"MedAdmin": 0,
 							"MedID": 3,
 							"UpdatedBy": 19881,
-							"UpdatedByName": "Jerry Xiao",
+							"UpdatedByName": "Jerry Jones",
 							"UpdatedDate": {
 								"$date": "2011-09-16T18:39:28.637Z"
 							},
@@ -216,7 +216,7 @@
 							"MedAdmin": 0,
 							"MedID": 4,
 							"UpdatedBy": 19881,
-							"UpdatedByName": "Jerry Xiao",
+							"UpdatedByName": "Jerry Jones",
 							"UpdatedDate": {
 								"$date": "2011-09-16T18:39:28.637Z"
 							},
@@ -230,7 +230,7 @@
 							"MedAdmin": 1,
 							"MedID": 5,
 							"UpdatedBy": 19881,
-							"UpdatedByName": "Jerry Xiao",
+							"UpdatedByName": "Jerry Jones",
 							"UpdatedDate": {
 								"$date": "2011-09-16T18:39:28.637Z"
 							},
@@ -244,7 +244,7 @@
 							"MedAdmin": 0,
 							"MedID": 6,
 							"UpdatedBy": 19881,
-							"UpdatedByName": "Jerry Xiao",
+							"UpdatedByName": "Jerry Jones",
 							"UpdatedDate": {
 								"$date": "2011-09-16T18:39:28.637Z"
 							},
@@ -258,7 +258,7 @@
 							"MedAdmin": 0,
 							"MedID": 7,
 							"UpdatedBy": 19881,
-							"UpdatedByName": "Jerry Xiao",
+							"UpdatedByName": "Jerry Jones",
 							"UpdatedDate": {
 								"$date": "2011-09-16T18:39:28.637Z"
 							},
@@ -272,7 +272,7 @@
 							"MedAdmin": 0,
 							"MedID": 8,
 							"UpdatedBy": 19881,
-							"UpdatedByName": "Jerry Xiao",
+							"UpdatedByName": "Jerry Jones",
 							"UpdatedDate": {
 								"$date": "2011-09-16T18:39:28.637Z"
 							},
@@ -286,7 +286,7 @@
 							"MedAdmin": 0,
 							"MedID": 9,
 							"UpdatedBy": 19881,
-							"UpdatedByName": "Jerry Xiao",
+							"UpdatedByName": "Jerry Jones",
 							"UpdatedDate": {
 								"$date": "2011-09-16T18:39:28.637Z"
 							},
@@ -300,7 +300,7 @@
 							"MedAdmin": 0,
 							"MedID": 1,
 							"UpdatedBy": 19881,
-							"UpdatedByName": "Jerry Xiao",
+							"UpdatedByName": "Jerry Jones",
 							"UpdatedDate": {
 								"$date": "2011-09-16T18:39:28.637Z"
 							},
@@ -314,7 +314,7 @@
 							"MedAdmin": 0,
 							"MedID": 18,
 							"UpdatedBy": 19881,
-							"UpdatedByName": "Jerry Xiao",
+							"UpdatedByName": "Jerry Jones",
 							"UpdatedDate": {
 								"$date": "2011-09-16T18:39:28.637Z"
 							},
@@ -334,7 +334,7 @@
 					"PrePCILVEF": 5,
 					"PrePCILVEFNA": false,
 					"UpdatedBy": 19685,
-					"UpdatedByName": "Soe Tun",
+					"UpdatedByName": "Soe Smith",
 					"UpdatedDate": {
 						"$date": "2011-06-22T19:52:02.760Z"
 					},
@@ -348,7 +348,7 @@
 			"StressEcho": 0,
 			"StressImaging": 1,
 			"UpdatedBy": 19881,
-			"UpdatedByName": "Jerry Xiao",
+			"UpdatedByName": "Jerry Jones",
 			"UpdatedDate": {
 				"$date": "2011-09-16T18:38:00.540Z"
 			}
@@ -384,7 +384,7 @@
 				"MedAdmin": 1,
 				"MedID": 10,
 				"UpdatedBy": 19821,
-				"UpdatedByName": "Soe Tun",
+				"UpdatedByName": "Soe Smith",
 				"UpdatedDate": {
 					"$date": "2011-08-23T22:07:38.967Z"
 				},
@@ -398,7 +398,7 @@
 				"MedAdmin": 1,
 				"MedID": 11,
 				"UpdatedBy": 19821,
-				"UpdatedByName": "Soe Tun",
+				"UpdatedByName": "Soe Smith",
 				"UpdatedDate": {
 					"$date": "2011-08-23T22:07:38.967Z"
 				},
@@ -412,7 +412,7 @@
 				"MedAdmin": 1,
 				"MedID": 12,
 				"UpdatedBy": 19821,
-				"UpdatedByName": "Soe Tun",
+				"UpdatedByName": "Soe Smith",
 				"UpdatedDate": {
 					"$date": "2011-08-23T22:07:38.967Z"
 				},
@@ -426,7 +426,7 @@
 				"MedAdmin": 1,
 				"MedID": 13,
 				"UpdatedBy": 19821,
-				"UpdatedByName": "Soe Tun",
+				"UpdatedByName": "Soe Smith",
 				"UpdatedDate": {
 					"$date": "2011-08-23T22:07:38.967Z"
 				},
@@ -440,7 +440,7 @@
 				"MedAdmin": 1,
 				"MedID": 14,
 				"UpdatedBy": 19821,
-				"UpdatedByName": "Soe Tun",
+				"UpdatedByName": "Soe Smith",
 				"UpdatedDate": {
 					"$date": "2011-08-23T22:07:38.967Z"
 				},
@@ -454,7 +454,7 @@
 				"MedAdmin": 1,
 				"MedID": 15,
 				"UpdatedBy": 19821,
-				"UpdatedByName": "Soe Tun",
+				"UpdatedByName": "Soe Smith",
 				"UpdatedDate": {
 					"$date": "2011-08-23T22:07:38.967Z"
 				},
@@ -468,7 +468,7 @@
 				"MedAdmin": 1,
 				"MedID": 16,
 				"UpdatedBy": 19821,
-				"UpdatedByName": "Soe Tun",
+				"UpdatedByName": "Soe Smith",
 				"UpdatedDate": {
 					"$date": "2011-08-23T22:07:38.967Z"
 				},
@@ -482,7 +482,7 @@
 				"MedAdmin": 1,
 				"MedID": 17,
 				"UpdatedBy": 19821,
-				"UpdatedByName": "Soe Tun",
+				"UpdatedByName": "Soe Smith",
 				"UpdatedDate": {
 					"$date": "2011-08-23T22:07:38.967Z"
 				},
@@ -496,7 +496,7 @@
 				"MedAdmin": 1,
 				"MedID": 19,
 				"UpdatedBy": 19821,
-				"UpdatedByName": "Soe Tun",
+				"UpdatedByName": "Soe Smith",
 				"UpdatedDate": {
 					"$date": "2011-08-23T22:07:38.967Z"
 				},
@@ -508,7 +508,7 @@
 		},
 		"OtherMajorSurgery": 1,
 		"UpdatedBy": 19881,
-		"UpdatedByName": "Jerry Xiao",
+		"UpdatedByName": "Jerry Jones",
 		"UpdatedDate": {
 			"$date": "2011-09-16T18:38:50.073Z"
 		}

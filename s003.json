@@ -35,6 +35,12 @@
 		}
 	},
 	"properties": {
+		"AdmtSource": {
+			"id": "AdmtSource",
+			"type": "number",
+			"minimum": 1,
+			"maximum": 100
+		},
 		"ArrivalDate": {
 			"id": "ArrivalDate",
 			"type": "object",
