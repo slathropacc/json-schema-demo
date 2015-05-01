@@ -1,0 +1,516 @@
+{
+	"AdmtSource": 2,
+	"ArrivalDate": {
+		"$date": "2011-04-01T04:00:00.000Z"
+	},
+	"ArrivalTime": "11:00:00",
+	"BookMarkRecord": false,
+	"FamilyHxCAD": 1,
+	"FlagDeleted": false,
+	"Hypertension": 0,
+	"InsNone": true,
+	"ZipCode": "12345",
+	"ZipCodeNA": false,	
+	"NCDRPatientID": {
+		"$numberLong": "104487"
+	},
+	"ObjectUID": {
+		"$numberLong": "504"
+	},
+	"PatientGUID": {
+		"$binary": "34zYvE7gfkOznlt3UAh4gw==",
+		"$type": "03"
+	},
+	"PriorCABG": 0,
+	"PriorCVD": 0,
+	"PriorMI": 0,
+	"PriorPAD": 0,
+	"PriorPCI": 0,
+	"RegistryID": 151,
+	"Smoker": 1,
+	"SystemAlert": false,
+	"UpdatedBy": 19821,
+	"UpdatedByName": "Soe Tun",
+	"UpdatedDate": {
+		"$date": "2011-08-24T21:24:45.420Z"
+	},
+	"ValveSurgery": 0,
+	"_id": {
+		"$oid": "553a9cabf3639b735df838f3"
+	},
+	"CathLabVisit": [
+		{
+			"AA_BetaBlockers": 0,
+			"AA_CaChannel": 0,
+			"AA_LongActingNitrates": 0,
+			"AA_OtherAgent": 0,
+			"AA_Ranolazine": 0,
+			"AcessSite": 2,
+			"AnginalClass": 2,
+			"AntiAnginalMed": 1,
+			"CADPresentation": 2,
+			"CMRStressTest": 0,
+			"CardCTAResults": 1,
+			"CardiacCTA": 1,
+			"CardioLVSD": 1,
+			"ClosureMethodNA": false,
+			"CorCalciumScore": 0,
+			"CreatedBy": 19821,
+			"CreatedDate": {
+				"$date": "2011-03-02T19:19:15.533Z"
+			},
+			"DiagnosticCath": 1,
+			"Events": {
+				"CreatedDate": {
+					"$date": "2011-03-02T19:19:15.820Z"
+				},
+				"HgbPriorTransfusion": 15,
+				"PostBleed": 1,
+				"PostBleedAccessSite": 0,
+				"PostBleedHemaSize": 2,
+				"PostBleedHematoma": 1,
+				"PostCVA": 1,
+				"PostCardiogenicShock": 1,
+				"PostDialysis": 0,
+				"PostGIBleed": 0,
+				"PostGUBleed": 0,
+				"PostHF": 0,
+				"PostHemStroke": 0,
+				"PostMI": 0,
+				"PostOtherBleed": 0,
+				"PostOtherVasComp": 0,
+				"PostRetroBleed": 1,
+				"PostTamponade": 1,
+				"PostTransfusion": 1,
+				"UpdatedBy": 19685,
+				"UpdatedByName": "Soe Tun",
+				"UpdatedDate": {
+					"$date": "2011-04-13T17:44:28.860Z"
+				}
+			},
+			"ExerciseStressTest": 0,
+			"FlagDeleted": false,
+			"IABP": 0,
+			"MVSupport": 0,
+			"ObjectUID": {
+				"$numberLong": "290"
+			},
+			"PCI": 1,
+			"PeriopEval": 0,
+			"Prior2weekNYHA": 2,
+			"Prior2weeksHF": 1,
+			"PriorCardiacArrest": 0,
+			"PriorCardioShock": 1,
+			"ProcedureDate": {
+				"$date": "2011-04-02T04:00:00.000Z"
+			},
+			"ProcedureTime": "11:15:00",
+			"Procedures": {
+				"DiagCath": {
+					"CardiacTransplant": 0,
+					"CreatedBy": 19821,
+					"CreatedDate": {
+						"$date": "2011-03-02T19:20:42.633Z"
+					},
+					"DCathLName": "dsfsadf",
+					"DCathNPI": "8888888888",
+					"DCathStatus": 1,
+					"DCathTreatment": 2,
+					"DiagCorAngio": 0,
+					"LeftHeartCath": 0,
+					"ObjectUID": {
+						"$numberLong": "125"
+					},
+					"UpdatedBy": 19685,
+					"UpdatedByName": "Soe Tun",
+					"UpdatedDate": {
+						"$date": "2011-04-13T17:44:20.170Z"
+					},
+					"uidCathLabVisit": {
+						"$numberLong": "290"
+					},
+					"uidOperator": 7
+				},
+				"PCI": {
+					"CreatedBy": 19821,
+					"CreatedDate": {
+						"$date": "2011-05-20T19:20:20.570Z"
+					},
+					"Device": [],
+					"DissectionSeg": 0,
+					"Lesion": [
+						{
+							"ChronicOcclusion": 1,
+							"CreatedBy": 19685,
+							"CreatedDate": {
+								"$date": "2011-06-22T19:34:42.693Z"
+							},
+							"Device": [],
+							"FlagDeleted": false,
+							"LesionCounter": 1,
+							"ObjectUID": {
+								"$numberLong": "302"
+							},
+							"PreProcTIMI": 3,
+							"StenosisPriorTreat": 100,
+							"UpdatedBy": 19685,
+							"UpdatedByName": "Soe Tun",
+							"UpdatedDate": {
+								"$date": "2011-06-22T19:34:42.693Z"
+							}
+						},
+						{
+							"CreatedBy": 19685,
+							"CreatedDate": {
+								"$date": "2011-06-22T19:35:06.020Z"
+							},
+							"Device": [],
+							"FlagDeleted": false,
+							"LesionCounter": 2,
+							"ObjectUID": {
+								"$numberLong": "303"
+							},
+							"PreProcTIMI": 3,
+							"StenosisPriorTreat": 90,
+							"UpdatedBy": 19685,
+							"UpdatedByName": "Soe Tun",
+							"UpdatedDate": {
+								"$date": "2011-06-22T19:52:02.760Z"
+							}
+						}
+					],
+					"Med": [
+						{
+							"CreatedBy": 19881,
+							"CreatedDate": {
+								"$date": "2011-09-16T18:39:21.557Z"
+							},
+							"MedAdmin": 0,
+							"MedID": 2,
+							"UpdatedBy": 19881,
+							"UpdatedByName": "Jerry Xiao",
+							"UpdatedDate": {
+								"$date": "2011-09-16T18:39:28.637Z"
+							},
+							"uidMedication": 1
+						},
+						{
+							"CreatedBy": 19881,
+							"CreatedDate": {
+								"$date": "2011-09-16T18:39:21.557Z"
+							},
+							"MedAdmin": 0,
+							"MedID": 3,
+							"UpdatedBy": 19881,
+							"UpdatedByName": "Jerry Xiao",
+							"UpdatedDate": {
+								"$date": "2011-09-16T18:39:28.637Z"
+							},
+							"uidMedication": 2
+						},
+						{
+							"CreatedBy": 19881,
+							"CreatedDate": {
+								"$date": "2011-09-16T18:39:21.557Z"
+							},
+							"MedAdmin": 0,
+							"MedID": 4,
+							"UpdatedBy": 19881,
+							"UpdatedByName": "Jerry Xiao",
+							"UpdatedDate": {
+								"$date": "2011-09-16T18:39:28.637Z"
+							},
+							"uidMedication": 3
+						},
+						{
+							"CreatedBy": 19881,
+							"CreatedDate": {
+								"$date": "2011-09-16T18:39:21.557Z"
+							},
+							"MedAdmin": 1,
+							"MedID": 5,
+							"UpdatedBy": 19881,
+							"UpdatedByName": "Jerry Xiao",
+							"UpdatedDate": {
+								"$date": "2011-09-16T18:39:28.637Z"
+							},
+							"uidMedication": 4
+						},
+						{
+							"CreatedBy": 19881,
+							"CreatedDate": {
+								"$date": "2011-09-16T18:39:21.557Z"
+							},
+							"MedAdmin": 0,
+							"MedID": 6,
+							"UpdatedBy": 19881,
+							"UpdatedByName": "Jerry Xiao",
+							"UpdatedDate": {
+								"$date": "2011-09-16T18:39:28.637Z"
+							},
+							"uidMedication": 5
+						},
+						{
+							"CreatedBy": 19881,
+							"CreatedDate": {
+								"$date": "2011-09-16T18:39:21.557Z"
+							},
+							"MedAdmin": 0,
+							"MedID": 7,
+							"UpdatedBy": 19881,
+							"UpdatedByName": "Jerry Xiao",
+							"UpdatedDate": {
+								"$date": "2011-09-16T18:39:28.637Z"
+							},
+							"uidMedication": 6
+						},
+						{
+							"CreatedBy": 19881,
+							"CreatedDate": {
+								"$date": "2011-09-16T18:39:21.557Z"
+							},
+							"MedAdmin": 0,
+							"MedID": 8,
+							"UpdatedBy": 19881,
+							"UpdatedByName": "Jerry Xiao",
+							"UpdatedDate": {
+								"$date": "2011-09-16T18:39:28.637Z"
+							},
+							"uidMedication": 7
+						},
+						{
+							"CreatedBy": 19881,
+							"CreatedDate": {
+								"$date": "2011-09-16T18:39:21.557Z"
+							},
+							"MedAdmin": 0,
+							"MedID": 9,
+							"UpdatedBy": 19881,
+							"UpdatedByName": "Jerry Xiao",
+							"UpdatedDate": {
+								"$date": "2011-09-16T18:39:28.637Z"
+							},
+							"uidMedication": 8
+						},
+						{
+							"CreatedBy": 19881,
+							"CreatedDate": {
+								"$date": "2011-09-16T18:39:21.557Z"
+							},
+							"MedAdmin": 0,
+							"MedID": 1,
+							"UpdatedBy": 19881,
+							"UpdatedByName": "Jerry Xiao",
+							"UpdatedDate": {
+								"$date": "2011-09-16T18:39:28.637Z"
+							},
+							"uidMedication": 17
+						},
+						{
+							"CreatedBy": 19881,
+							"CreatedDate": {
+								"$date": "2011-09-16T18:39:21.557Z"
+							},
+							"MedAdmin": 0,
+							"MedID": 18,
+							"UpdatedBy": 19881,
+							"UpdatedByName": "Jerry Xiao",
+							"UpdatedDate": {
+								"$date": "2011-09-16T18:39:28.637Z"
+							},
+							"uidMedication": 48
+						}
+					],
+					"ObjectUID": {
+						"$numberLong": "222"
+					},
+					"PCICardioShock": 1,
+					"PCIFName": "Ganesan",
+					"PCILName": "Muthiah",
+					"PCINPI": "0233888888",
+					"PCIStatus": 3,
+					"PCIndication": 3,
+					"PerfSeg": 0,
+					"PrePCILVEF": 5,
+					"PrePCILVEFNA": false,
+					"UpdatedBy": 19685,
+					"UpdatedByName": "Soe Tun",
+					"UpdatedDate": {
+						"$date": "2011-06-22T19:52:02.760Z"
+					},
+					"uidCathLabVisit": {
+						"$numberLong": "290"
+					},
+					"uidOperator": 2
+				}
+			},
+			"SPECTStressTest": 0,
+			"StressEcho": 0,
+			"StressImaging": 1,
+			"UpdatedBy": 19881,
+			"UpdatedByName": "Jerry Xiao",
+			"UpdatedDate": {
+				"$date": "2011-09-16T18:38:00.540Z"
+			}
+		}
+	],
+	"ChronicLungDisease": 0,
+	"CreatedBy": 19821,
+	"CreatedDate": {
+		"$date": "2011-03-02T19:16:04.147Z"
+	},
+	"CurrentDialysis": 0,
+	"Diabetes": 0,
+	"Discharge": {
+		"CABG": 1,
+		"CABGLocation": 2,
+		"CreatedBy": 19821,
+		"CreatedDate": {
+			"$date": "2011-03-04T00:49:28.327Z"
+		},
+		"DCDate": {
+			"$date": "2011-07-01T04:00:00.000Z"
+		},
+		"DCLVEFNA": true,
+		"DCLocation": 4,
+		"DCStatus": 1,
+		"HospStatus": 2,
+		"Med": [
+			{
+				"CreatedBy": 19685,
+				"CreatedDate": {
+					"$date": "2011-05-31T19:12:44.990Z"
+				},
+				"MedAdmin": 1,
+				"MedID": 10,
+				"UpdatedBy": 19821,
+				"UpdatedByName": "Soe Tun",
+				"UpdatedDate": {
+					"$date": "2011-08-23T22:07:38.967Z"
+				},
+				"uidMedication": 9
+			},
+			{
+				"CreatedBy": 19685,
+				"CreatedDate": {
+					"$date": "2011-05-31T19:12:44.990Z"
+				},
+				"MedAdmin": 1,
+				"MedID": 11,
+				"UpdatedBy": 19821,
+				"UpdatedByName": "Soe Tun",
+				"UpdatedDate": {
+					"$date": "2011-08-23T22:07:38.967Z"
+				},
+				"uidMedication": 10
+			},
+			{
+				"CreatedBy": 19685,
+				"CreatedDate": {
+					"$date": "2011-05-31T19:12:44.990Z"
+				},
+				"MedAdmin": 1,
+				"MedID": 12,
+				"UpdatedBy": 19821,
+				"UpdatedByName": "Soe Tun",
+				"UpdatedDate": {
+					"$date": "2011-08-23T22:07:38.967Z"
+				},
+				"uidMedication": 11
+			},
+			{
+				"CreatedBy": 19685,
+				"CreatedDate": {
+					"$date": "2011-05-31T19:12:44.990Z"
+				},
+				"MedAdmin": 1,
+				"MedID": 13,
+				"UpdatedBy": 19821,
+				"UpdatedByName": "Soe Tun",
+				"UpdatedDate": {
+					"$date": "2011-08-23T22:07:38.967Z"
+				},
+				"uidMedication": 12
+			},
+			{
+				"CreatedBy": 19685,
+				"CreatedDate": {
+					"$date": "2011-05-31T19:12:44.990Z"
+				},
+				"MedAdmin": 1,
+				"MedID": 14,
+				"UpdatedBy": 19821,
+				"UpdatedByName": "Soe Tun",
+				"UpdatedDate": {
+					"$date": "2011-08-23T22:07:38.967Z"
+				},
+				"uidMedication": 13
+			},
+			{
+				"CreatedBy": 19685,
+				"CreatedDate": {
+					"$date": "2011-05-31T19:12:44.990Z"
+				},
+				"MedAdmin": 1,
+				"MedID": 15,
+				"UpdatedBy": 19821,
+				"UpdatedByName": "Soe Tun",
+				"UpdatedDate": {
+					"$date": "2011-08-23T22:07:38.967Z"
+				},
+				"uidMedication": 14
+			},
+			{
+				"CreatedBy": 19685,
+				"CreatedDate": {
+					"$date": "2011-05-31T19:12:44.990Z"
+				},
+				"MedAdmin": 1,
+				"MedID": 16,
+				"UpdatedBy": 19821,
+				"UpdatedByName": "Soe Tun",
+				"UpdatedDate": {
+					"$date": "2011-08-23T22:07:38.967Z"
+				},
+				"uidMedication": 15
+			},
+			{
+				"CreatedBy": 19685,
+				"CreatedDate": {
+					"$date": "2011-05-31T19:12:44.990Z"
+				},
+				"MedAdmin": 1,
+				"MedID": 17,
+				"UpdatedBy": 19821,
+				"UpdatedByName": "Soe Tun",
+				"UpdatedDate": {
+					"$date": "2011-08-23T22:07:38.967Z"
+				},
+				"uidMedication": 16
+			},
+			{
+				"CreatedBy": 19685,
+				"CreatedDate": {
+					"$date": "2011-05-31T19:12:44.990Z"
+				},
+				"MedAdmin": 1,
+				"MedID": 19,
+				"UpdatedBy": 19821,
+				"UpdatedByName": "Soe Tun",
+				"UpdatedDate": {
+					"$date": "2011-08-23T22:07:38.967Z"
+				},
+				"uidMedication": 49
+			}
+		],
+		"ObjectUID": {
+			"$numberLong": "183"
+		},
+		"OtherMajorSurgery": 1,
+		"UpdatedBy": 19881,
+		"UpdatedByName": "Jerry Xiao",
+		"UpdatedDate": {
+			"$date": "2011-09-16T18:38:50.073Z"
+		}
+	}
+}

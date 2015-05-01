@@ -1,0 +1,323 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "/",
+	"type": "object",
+	"required": [
+		"ArrivalDate",
+		"BookMarkRecord",
+		"CathLabVisit",
+		"CreatedBy",
+		"CreatedDate",
+		"Discharge",
+		"FlagDeleted",
+		"InsIHS",
+		"InsMedicaid",
+		"InsMedicare",
+		"InsMilitary",
+		"InsNonUS",
+		"InsNone",
+		"InsPrivate",
+		"InsState",
+		"NCDRPatientID",
+		"ObjectUID",
+		"PatientGUID",
+		"RegistryID",
+		"SystemAlert",
+		"UpdatedBy",
+		"UpdatedByName",
+		"UpdatedDate",
+		"ZipCodeNA"
+	],
+	"properties": {
+		"ArrivalDate": {
+			"id": "ArrivalDate",
+			"type": "object",
+			"properties": {}
+		},
+		"BookMarkRecord": {
+			"id": "BookMarkRecord",
+			"type": "boolean"
+		},
+		"CathLabVisit": {
+			"id": "CathLabVisit",
+			"type": "array",
+			"items": {
+				"id": "0",
+				"type": "object",
+				"required": [
+					"ClosureMethodNA"
+				],
+				"properties": {
+					"ClosureMethodNA": {
+						"id": "ClosureMethodNA",
+						"type": "boolean"
+					},
+					"CreatedBy": {
+						"id": "CreatedBy",
+						"type": "integer"
+					},
+					"CreatedDate": {
+						"id": "CreatedDate",
+						"type": "object",
+						"properties": {}
+					},
+					"DiagnosticCath": {
+						"id": "DiagnosticCath",
+						"type": "integer"
+					},
+					"Events": {
+						"id": "Events",
+						"type": "object",
+						"properties": {
+							"CreatedDate": {
+								"id": "CreatedDate",
+								"type": "object",
+								"properties": {}
+							},
+							"UpdatedDate": {
+								"id": "UpdatedDate",
+								"type": "object",
+								"properties": {}
+							}
+						}
+					},
+					"FlagDeleted": {
+						"id": "FlagDeleted",
+						"type": "boolean"
+					},
+					"ObjectUID": {
+						"id": "ObjectUID",
+						"type": "object",
+						"properties": {}
+					},
+					"OtherProcedure": {
+						"id": "OtherProcedure",
+						"type": "integer"
+					},
+					"PCI": {
+						"id": "PCI",
+						"type": "integer"
+					},
+					"ProcedureDate": {
+						"id": "ProcedureDate",
+						"type": "object",
+						"properties": {}
+					},
+					"ProcedureTime": {
+						"id": "ProcedureTime",
+						"type": "string"
+					},
+					"Procedures": {
+						"id": "Procedures",
+						"type": "object",
+						"properties": {
+							"DiagCath": {
+								"id": "DiagCath",
+								"type": "object",
+								"properties": {
+									"CreatedBy": {
+										"id": "CreatedBy",
+										"type": "integer"
+									},
+									"CreatedDate": {
+										"id": "CreatedDate",
+										"type": "object",
+										"properties": {}
+									},
+									"DCathLName": {
+										"id": "DCathLName",
+										"type": "string"
+									},
+									"DCathNPI": {
+										"id": "DCathNPI",
+										"type": "string"
+									},
+									"DiagCorAngio": {
+										"id": "DiagCorAngio",
+										"type": "integer"
+									},
+									"LeftHeartCath": {
+										"id": "LeftHeartCath",
+										"type": "integer"
+									},
+									"ObjectUID": {
+										"id": "ObjectUID",
+										"type": "object",
+										"properties": {}
+									},
+									"UpdatedBy": {
+										"id": "UpdatedBy",
+										"type": "integer"
+									},
+									"UpdatedByName": {
+										"id": "UpdatedByName",
+										"type": "string"
+									},
+									"UpdatedDate": {
+										"id": "UpdatedDate",
+										"type": "object",
+										"properties": {}
+									},
+									"uidCathLabVisit": {
+										"id": "uidCathLabVisit",
+										"type": "object",
+										"properties": {}
+									},
+									"uidOperator": {
+										"id": "uidOperator",
+										"type": "integer"
+									}
+								}
+							}
+						}
+					},
+					"UpdatedBy": {
+						"id": "UpdatedBy",
+						"type": "integer"
+					},
+					"UpdatedByName": {
+						"id": "UpdatedByName",
+						"type": "string"
+					},
+					"UpdatedDate": {
+						"id": "UpdatedDate",
+						"type": "object",
+						"properties": {}
+					}
+				}
+			}
+		},
+		"CreatedBy": {
+			"id": "CreatedBy",
+			"type": "integer"
+		},
+		"CreatedDate": {
+			"id": "CreatedDate",
+			"type": "object",
+			"properties": {}
+		},
+		"Discharge": {
+			"id": "Discharge",
+			"type": "object",
+			"properties": {
+				"CreatedBy": {
+					"id": "CreatedBy",
+					"type": "integer"
+				},
+				"CreatedDate": {
+					"id": "CreatedDate",
+					"type": "object",
+					"properties": {}
+				},
+				"DCDate": {
+					"id": "DCDate",
+					"type": "object",
+					"properties": {}
+				},
+				"DCLVEFNA": {
+					"id": "DCLVEFNA",
+					"type": "boolean"
+				},
+				"Med": {
+					"id": "Med",
+					"type": "array",
+					"items": {}
+				},
+				"ObjectUID": {
+					"id": "ObjectUID",
+					"type": "object",
+					"properties": {}
+				},
+				"UpdatedBy": {
+					"id": "UpdatedBy",
+					"type": "integer"
+				},
+				"UpdatedByName": {
+					"id": "UpdatedByName",
+					"type": "string"
+				},
+				"UpdatedDate": {
+					"id": "UpdatedDate",
+					"type": "object",
+					"properties": {}
+				}
+			}
+		},
+		"FlagDeleted": {
+			"id": "FlagDeleted",
+			"type": "boolean"
+		},
+		"InsIHS": {
+			"id": "InsIHS",
+			"type": "boolean"
+		},
+		"InsMedicaid": {
+			"id": "InsMedicaid",
+			"type": "boolean"
+		},
+		"InsMedicare": {
+			"id": "InsMedicare",
+			"type": "boolean"
+		},
+		"InsMilitary": {
+			"id": "InsMilitary",
+			"type": "boolean"
+		},
+		"InsNonUS": {
+			"id": "InsNonUS",
+			"type": "boolean"
+		},
+		"InsNone": {
+			"id": "InsNone",
+			"type": "boolean"
+		},
+		"InsPrivate": {
+			"id": "InsPrivate",
+			"type": "boolean"
+		},
+		"InsState": {
+			"id": "InsState",
+			"type": "boolean"
+		},
+		"NCDRPatientID": {
+			"id": "NCDRPatientID",
+			"type": "object",
+			"properties": {}
+		},
+		"ObjectUID": {
+			"id": "ObjectUID",
+			"type": "object",
+			"properties": {}
+		},
+		"PatientGUID": {
+			"id": "PatientGUID",
+			"type": "object",
+			"properties": {}
+		},
+		"RegistryID": {
+			"id": "RegistryID",
+			"type": "integer"
+		},
+		"SystemAlert": {
+			"id": "SystemAlert",
+			"type": "boolean"
+		},
+		"UpdatedBy": {
+			"id": "UpdatedBy",
+			"type": "integer"
+		},
+		"UpdatedByName": {
+			"id": "UpdatedByName",
+			"type": "string"
+		},
+		"UpdatedDate": {
+			"id": "UpdatedDate",
+			"type": "object",
+			"properties": {}
+		},
+		"ZipCodeNA": {
+			"id": "ZipCodeNA",
+			"type": "boolean"
+		}
+	}
+}
