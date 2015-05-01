@@ -1,0 +1,114 @@
+{
+	"_id": {
+		"$oid": "553a9cabf3639b735df838ee"
+	},
+	"ArrivalDate": {
+		"$date": "2011-03-04T05:00:00.000Z"
+	},
+	"BookMarkRecord": false,
+	"CathLabVisit": [{
+		"ClosureMethodNA": false,
+		"CreatedBy": 2862,
+		"CreatedDate": {
+			"$date": "2011-03-04T15:59:21.603Z"
+		},
+		"DiagnosticCath": 1,
+		"Events": {
+			"CreatedDate": {
+				"$date": "2011-03-04T15:59:21.727Z"
+			},
+			"UpdatedDate": {
+				"$date": "2011-03-04T15:59:21.727Z"
+			}
+		},
+		"FlagDeleted": false,
+		"ObjectUID": {
+			"$numberLong": "298"
+		},
+		"OtherProcedure": 1,
+		"PCI": 0,
+		"ProcedureDate": {
+			"$date": "2011-03-04T05:00:00.000Z"
+		},
+		"ProcedureTime": "09:30:00",
+		"Procedures": {
+			"DiagCath": {
+				"CreatedBy": 2862,
+				"CreatedDate": {
+					"$date": "2011-03-04T15:59:38.353Z"
+				},
+				"DCathLName": "dsfsadf",
+				"DCathNPI": "8888888888",
+				"DiagCorAngio": 0,
+				"LeftHeartCath": 1,
+				"ObjectUID": {
+					"$numberLong": "130"
+				},
+				"UpdatedBy": 13456,
+				"UpdatedByName": "Adam Smith",
+				"UpdatedDate": {
+					"$date": "2011-03-10T20:05:54.203Z"
+				},
+				"uidCathLabVisit": {
+					"$numberLong": "298"
+				},
+				"uidOperator": 7
+			}
+		},
+		"UpdatedBy": 13456,
+		"UpdatedByName": "Adam Smith",
+		"UpdatedDate": {
+			"$date": "2011-03-15T20:25:02.063Z"
+		}
+	}],
+	"CreatedBy": 2862,
+	"CreatedDate": {
+		"$date": "2011-03-04T15:58:54.210Z"
+	},
+	"Discharge": {
+		"CreatedBy": 13456,
+		"CreatedDate": {
+			"$date": "2011-03-10T20:05:31.247Z"
+		},
+		"DCDate": {
+			"$date": "2011-03-12T05:00:00.000Z"
+		},
+		"DCLVEFNA": false,
+		"Med": [],
+		"ObjectUID": {
+			"$numberLong": "188"
+		},
+		"UpdatedBy": 13456,
+		"UpdatedByName": "Adam Smith",
+		"UpdatedDate": {
+			"$date": "2011-03-10T20:05:31.247Z"
+		}
+	},
+	"FlagDeleted": false,
+	"InsIHS": false,
+	"InsMedicaid": false,
+	"InsMedicare": false,
+	"InsMilitary": false,
+	"InsNonUS": false,
+	"InsNone": false,
+	"InsPrivate": false,
+	"InsState": false,
+	"NCDRPatientID": {
+		"$numberLong": "205295"
+	},
+	"ObjectUID": {
+		"$numberLong": "510"
+	},
+	"PatientGUID": {
+		"$binary": "mxVVM8ODh0uGQo4PsDWbew==",
+		"$type": "03"
+	},
+	"RegistryID": 151,
+	"SystemAlert": false,
+	"UpdatedBy": 2862,
+	"UpdatedByName": "Nandan Jones",
+	"UpdatedDate": {
+		"$date": "2011-03-04T15:58:56.633Z"
+	},
+	"ZipCodeNA": false
+}
