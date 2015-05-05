@@ -1,0 +1,846 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "",
+	"type": "object",
+	"properties": {
+		"AdmtSource": {
+			"id": "/AdmtSource",
+			"type": "integer"
+		},
+		"ArrivalDate": {
+			"id": "/ArrivalDate",
+			"type": "object",
+			"properties": {}
+		},
+		"ArrivalTime": {
+			"id": "/ArrivalTime",
+			"type": "string"
+		},
+		"BookMarkRecord": {
+			"id": "/BookMarkRecord",
+			"type": "boolean"
+		},
+		"ObjectUID": {
+			"id": "/ObjectUID",
+			"type": "object",
+			"properties": {}
+		},
+		"PatientGUID": {
+			"id": "/PatientGUID",
+			"type": "object",
+			"properties": {}
+		},
+		"PriorCABG": {
+			"id": "/PriorCABG",
+			"type": "integer"
+		},
+		"PriorCVD": {
+			"id": "/PriorCVD",
+			"type": "integer"
+		},
+		"PriorHF": {
+			"id": "/PriorHF",
+			"type": "integer"
+		},
+		"PriorMI": {
+			"id": "/PriorMI",
+			"type": "integer"
+		},
+		"PriorPAD": {
+			"id": "/PriorPAD",
+			"type": "integer"
+		},
+		"PriorPCI": {
+			"id": "/PriorPCI",
+			"type": "integer"
+		},
+		"RegistryID": {
+			"id": "/RegistryID",
+			"type": "integer"
+		},
+		"Smoker": {
+			"id": "/Smoker",
+			"type": "integer"
+		},
+		"SystemAlert": {
+			"id": "/SystemAlert",
+			"type": "boolean"
+		},
+		"UpdatedBy": {
+			"id": "/UpdatedBy",
+			"type": "integer"
+		},
+		"UpdatedByName": {
+			"id": "/UpdatedByName",
+			"type": "string"
+		},
+		"UpdatedDate": {
+			"id": "/UpdatedDate",
+			"type": "object",
+			"properties": {}
+		},
+		"ValveSurgery": {
+			"id": "/ValveSurgery",
+			"type": "integer"
+		},
+		"Weight": {
+			"id": "/Weight",
+			"type": "integer"
+		},
+		"ZipCode": {
+			"id": "/ZipCode",
+			"type": "string"
+		},
+		"ZipCodeNA": {
+			"id": "/ZipCodeNA",
+			"type": "boolean"
+		},
+		"_id": {
+			"id": "/_id",
+			"type": "object",
+			"properties": {}
+		},
+		"CathLabVisit": {
+			"id": "/CathLabVisit",
+			"type": "array",
+			"items": {
+				"id": "/CathLabVisit/1",
+				"type": "object",
+				"properties": {
+					"AA_BetaBlockers": {
+						"id": "/CathLabVisit/1/AA_BetaBlockers",
+						"type": "integer"
+					},
+					"AA_CaChannel": {
+						"id": "/CathLabVisit/1/AA_CaChannel",
+						"type": "integer"
+					},
+					"AA_LongActingNitrates": {
+						"id": "/CathLabVisit/1/AA_LongActingNitrates",
+						"type": "integer"
+					},
+					"AA_OtherAgent": {
+						"id": "/CathLabVisit/1/AA_OtherAgent",
+						"type": "integer"
+					},
+					"AA_Ranolazine": {
+						"id": "/CathLabVisit/1/AA_Ranolazine",
+						"type": "integer"
+					},
+					"AcessSite": {
+						"id": "/CathLabVisit/1/AcessSite",
+						"type": "integer"
+					},
+					"AnginalClass": {
+						"id": "/CathLabVisit/1/AnginalClass",
+						"type": "integer"
+					},
+					"AntiAnginalMed": {
+						"id": "/CathLabVisit/1/AntiAnginalMed",
+						"type": "integer"
+					},
+					"CADPresentation": {
+						"id": "/CathLabVisit/1/CADPresentation",
+						"type": "integer"
+					},
+					"CardioLVSD": {
+						"id": "/CathLabVisit/1/CardioLVSD",
+						"type": "integer"
+					},
+					"ClosureMethodNA": {
+						"id": "/CathLabVisit/1/ClosureMethodNA",
+						"type": "boolean"
+					},
+					"CreatedBy": {
+						"id": "/CathLabVisit/1/CreatedBy",
+						"type": "integer"
+					},
+					"CreatedDate": {
+						"id": "/CathLabVisit/1/CreatedDate",
+						"type": "object",
+						"properties": {}
+					},
+					"DiagnosticCath": {
+						"id": "/CathLabVisit/1/DiagnosticCath",
+						"type": "integer"
+					},
+					"Events": {
+						"id": "/CathLabVisit/1/Events",
+						"type": "object",
+						"properties": {
+							"CreatedDate": {
+								"id": "/CathLabVisit/1/Events/CreatedDate",
+								"type": "object",
+								"properties": {}
+							},
+							"PostBleed": {
+								"id": "/CathLabVisit/1/Events/PostBleed",
+								"type": "integer"
+							},
+							"PostCVA": {
+								"id": "/CathLabVisit/1/Events/PostCVA",
+								"type": "integer"
+							},
+							"PostCardiogenicShock": {
+								"id": "/CathLabVisit/1/Events/PostCardiogenicShock",
+								"type": "integer"
+							},
+							"PostDialysis": {
+								"id": "/CathLabVisit/1/Events/PostDialysis",
+								"type": "integer"
+							},
+							"PostHF": {
+								"id": "/CathLabVisit/1/Events/PostHF",
+								"type": "integer"
+							},
+							"PostMI": {
+								"id": "/CathLabVisit/1/Events/PostMI",
+								"type": "integer"
+							},
+							"PostOtherVasComp": {
+								"id": "/CathLabVisit/1/Events/PostOtherVasComp",
+								"type": "integer"
+							},
+							"PostTamponade": {
+								"id": "/CathLabVisit/1/Events/PostTamponade",
+								"type": "integer"
+							},
+							"PostTransfusion": {
+								"id": "/CathLabVisit/1/Events/PostTransfusion",
+								"type": "integer"
+							},
+							"UpdatedBy": {
+								"id": "/CathLabVisit/1/Events/UpdatedBy",
+								"type": "integer"
+							},
+							"UpdatedByName": {
+								"id": "/CathLabVisit/1/Events/UpdatedByName",
+								"type": "string"
+							},
+							"UpdatedDate": {
+								"id": "/CathLabVisit/1/Events/UpdatedDate",
+								"type": "object",
+								"properties": {}
+							}
+						}
+					},
+					"FlagDeleted": {
+						"id": "/CathLabVisit/1/FlagDeleted",
+						"type": "boolean"
+					},
+					"IABP": {
+						"id": "/CathLabVisit/1/IABP",
+						"type": "integer"
+					},
+					"MVSupport": {
+						"id": "/CathLabVisit/1/MVSupport",
+						"type": "integer"
+					},
+					"ObjectUID": {
+						"id": "/CathLabVisit/1/ObjectUID",
+						"type": "object",
+						"properties": {}
+					},
+					"OnsetDate": {
+						"id": "/CathLabVisit/1/OnsetDate",
+						"type": "object",
+						"properties": {}
+					},
+					"OnsetTime": {
+						"id": "/CathLabVisit/1/OnsetTime",
+						"type": "string"
+					},
+					"OnsetTimeEst": {
+						"id": "/CathLabVisit/1/OnsetTimeEst",
+						"type": "boolean"
+					},
+					"OnsetTimeNA": {
+						"id": "/CathLabVisit/1/OnsetTimeNA",
+						"type": "boolean"
+					},
+					"OtherProcedure": {
+						"id": "/CathLabVisit/1/OtherProcedure",
+						"type": "integer"
+					},
+					"PCI": {
+						"id": "/CathLabVisit/1/PCI",
+						"type": "integer"
+					},
+					"PeriopEval": {
+						"id": "/CathLabVisit/1/PeriopEval",
+						"type": "integer"
+					},
+					"Prior2weeksHF": {
+						"id": "/CathLabVisit/1/Prior2weeksHF",
+						"type": "integer"
+					},
+					"PriorCardiacArrest": {
+						"id": "/CathLabVisit/1/PriorCardiacArrest",
+						"type": "integer"
+					},
+					"PriorCardioShock": {
+						"id": "/CathLabVisit/1/PriorCardioShock",
+						"type": "integer"
+					},
+					"ProcedureDate": {
+						"id": "/CathLabVisit/1/ProcedureDate",
+						"type": "object",
+						"properties": {}
+					},
+					"ProcedureTime": {
+						"id": "/CathLabVisit/1/ProcedureTime",
+						"type": "string"
+					},
+					"Procedures": {
+						"id": "/CathLabVisit/1/Procedures",
+						"type": "object",
+						"properties": {
+							"PCI": {
+								"id": "/CathLabVisit/1/Procedures/PCI",
+								"type": "object",
+								"properties": {
+									"CreatedBy": {
+										"id": "/CathLabVisit/1/Procedures/PCI/CreatedBy",
+										"type": "integer"
+									},
+									"CreatedDate": {
+										"id": "/CathLabVisit/1/Procedures/PCI/CreatedDate",
+										"type": "object",
+										"properties": {}
+									},
+									"Device": {
+										"id": "/CathLabVisit/1/Procedures/PCI/Device",
+										"type": "array",
+										"items": {
+											"id": "/CathLabVisit/1/Procedures/PCI/Device/0",
+											"type": "object",
+											"properties": {
+												"CreatedBy": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Device/0/CreatedBy",
+													"type": "integer"
+												},
+												"CreatedDate": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Device/0/CreatedDate",
+													"type": "object",
+													"properties": {}
+												},
+												"DeviceCounter": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Device/0/DeviceCounter",
+													"type": "integer"
+												},
+												"FlagDeleted": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Device/0/FlagDeleted",
+													"type": "boolean"
+												},
+												"ICDevDimenReq": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Device/0/ICDevDimenReq",
+													"type": "string"
+												},
+												"ICDevID": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Device/0/ICDevID",
+													"type": "integer"
+												},
+												"Lesion": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Device/0/Lesion",
+													"type": "array",
+													"uniqueItems": true,
+													"items": {
+														"id": "/CathLabVisit/1/Procedures/PCI/Device/0/Lesion/0",
+														"type": "object",
+														"properties": {}
+													}
+												},
+												"ObjectUID": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Device/0/ObjectUID",
+													"type": "object",
+													"properties": {}
+												},
+												"UpdatedBy": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Device/0/UpdatedBy",
+													"type": "integer"
+												},
+												"UpdatedByName": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Device/0/UpdatedByName",
+													"type": "string"
+												},
+												"UpdatedDate": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Device/0/UpdatedDate",
+													"type": "object",
+													"properties": {}
+												},
+												"uidICDevice": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Device/0/uidICDevice",
+													"type": "integer"
+												}
+											}
+										}
+									},
+									"DissectionSeg": {
+										"id": "/CathLabVisit/1/Procedures/PCI/DissectionSeg",
+										"type": "integer"
+									},
+									"FirstDevActiDate": {
+										"id": "/CathLabVisit/1/Procedures/PCI/FirstDevActiDate",
+										"type": "object",
+										"properties": {}
+									},
+									"FirstDevActiTime": {
+										"id": "/CathLabVisit/1/Procedures/PCI/FirstDevActiTime",
+										"type": "string"
+									},
+									"Lesion": {
+										"id": "/CathLabVisit/1/Procedures/PCI/Lesion",
+										"type": "array",
+										"items": {
+											"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0",
+											"type": "object",
+											"properties": {
+												"BifurcationLesion": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/BifurcationLesion",
+													"type": "integer"
+												},
+												"CreatedBy": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/CreatedBy",
+													"type": "integer"
+												},
+												"CreatedDate": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/CreatedDate",
+													"type": "object",
+													"properties": {}
+												},
+												"CulpritArtery": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/CulpritArtery",
+													"type": "integer"
+												},
+												"Device": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/Device",
+													"type": "array",
+													"items": {
+														"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/Device/0",
+														"type": "object",
+														"properties": {}
+													}
+												},
+												"DeviceDeployed": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/DeviceDeployed",
+													"type": "integer"
+												},
+												"FlagDeleted": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/FlagDeleted",
+													"type": "boolean"
+												},
+												"GuidewireLesion": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/GuidewireLesion",
+													"type": "integer"
+												},
+												"LesionCounter": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/LesionCounter",
+													"type": "integer"
+												},
+												"LesionGraft": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/LesionGraft",
+													"type": "integer"
+												},
+												"LesionLength": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/LesionLength",
+													"type": "integer"
+												},
+												"LesonComplexty": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/LesonComplexty",
+													"type": "integer"
+												},
+												"ObjectUID": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/ObjectUID",
+													"type": "object",
+													"properties": {}
+												},
+												"PostProcTIMI": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/PostProcTIMI",
+													"type": "integer"
+												},
+												"PreProcTIMI": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/PreProcTIMI",
+													"type": "integer"
+												},
+												"PrevLesionTime": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/PrevLesionTime",
+													"type": "integer"
+												},
+												"PrevTreatedLesion": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/PrevTreatedLesion",
+													"type": "integer"
+												},
+												"PreviousStent": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/PreviousStent",
+													"type": "integer"
+												},
+												"StenosisPostProc": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/StenosisPostProc",
+													"type": "integer"
+												},
+												"StenosisPriorTreat": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/StenosisPriorTreat",
+													"type": "integer"
+												},
+												"Thrombus": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/Thrombus",
+													"type": "integer"
+												},
+												"UpdatedBy": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/UpdatedBy",
+													"type": "integer"
+												},
+												"UpdatedByName": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/UpdatedByName",
+													"type": "string"
+												},
+												"UpdatedDate": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/UpdatedDate",
+													"type": "object",
+													"properties": {}
+												}
+											}
+										}
+									},
+									"Med": {
+										"id": "/CathLabVisit/1/Procedures/PCI/Med",
+										"type": "array",
+										"items": {
+											"id": "/CathLabVisit/1/Procedures/PCI/Med/9",
+											"type": "object",
+											"properties": {
+												"CreatedBy": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Med/9/CreatedBy",
+													"type": "integer"
+												},
+												"CreatedDate": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Med/9/CreatedDate",
+													"type": "object",
+													"properties": {}
+												},
+												"MedAdmin": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Med/9/MedAdmin",
+													"type": "integer"
+												},
+												"MedID": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Med/9/MedID",
+													"type": "integer"
+												},
+												"UpdatedBy": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Med/9/UpdatedBy",
+													"type": "integer"
+												},
+												"UpdatedByName": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Med/9/UpdatedByName",
+													"type": "string"
+												},
+												"UpdatedDate": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Med/9/UpdatedDate",
+													"type": "object",
+													"properties": {}
+												},
+												"uidMedication": {
+													"id": "/CathLabVisit/1/Procedures/PCI/Med/9/uidMedication",
+													"type": "integer"
+												}
+											}
+										}
+									},
+									"ObjectUID": {
+										"id": "/CathLabVisit/1/Procedures/PCI/ObjectUID",
+										"type": "object",
+										"properties": {}
+									},
+									"PCICardioShock": {
+										"id": "/CathLabVisit/1/Procedures/PCI/PCICardioShock",
+										"type": "integer"
+									},
+									"PCIDelayReason": {
+										"id": "/CathLabVisit/1/Procedures/PCI/PCIDelayReason",
+										"type": "integer"
+									},
+									"PCILName": {
+										"id": "/CathLabVisit/1/Procedures/PCI/PCILName",
+										"type": "string"
+									},
+									"PCIStatus": {
+										"id": "/CathLabVisit/1/Procedures/PCI/PCIStatus",
+										"type": "integer"
+									},
+									"PCIndication": {
+										"id": "/CathLabVisit/1/Procedures/PCI/PCIndication",
+										"type": "integer"
+									},
+									"PatientTransPCI": {
+										"id": "/CathLabVisit/1/Procedures/PCI/PatientTransPCI",
+										"type": "integer"
+									},
+									"PerfSeg": {
+										"id": "/CathLabVisit/1/Procedures/PCI/PerfSeg",
+										"type": "integer"
+									},
+									"PrePCILVEF": {
+										"id": "/CathLabVisit/1/Procedures/PCI/PrePCILVEF",
+										"type": "integer"
+									},
+									"PrePCILVEFNA": {
+										"id": "/CathLabVisit/1/Procedures/PCI/PrePCILVEFNA",
+										"type": "boolean"
+									},
+									"StemiFirstNoted": {
+										"id": "/CathLabVisit/1/Procedures/PCI/StemiFirstNoted",
+										"type": "integer"
+									},
+									"SubECGDate": {
+										"id": "/CathLabVisit/1/Procedures/PCI/SubECGDate",
+										"type": "object",
+										"properties": {}
+									},
+									"SubECGTime": {
+										"id": "/CathLabVisit/1/Procedures/PCI/SubECGTime",
+										"type": "string"
+									},
+									"UpdatedBy": {
+										"id": "/CathLabVisit/1/Procedures/PCI/UpdatedBy",
+										"type": "integer"
+									},
+									"UpdatedByName": {
+										"id": "/CathLabVisit/1/Procedures/PCI/UpdatedByName",
+										"type": "string"
+									},
+									"UpdatedDate": {
+										"id": "/CathLabVisit/1/Procedures/PCI/UpdatedDate",
+										"type": "object",
+										"properties": {}
+									},
+									"uidCathLabVisit": {
+										"id": "/CathLabVisit/1/Procedures/PCI/uidCathLabVisit",
+										"type": "object",
+										"properties": {}
+									},
+									"uidOperator": {
+										"id": "/CathLabVisit/1/Procedures/PCI/uidOperator",
+										"type": "integer"
+									}
+								}
+							}
+						}
+					},
+					"StressImaging": {
+						"id": "/CathLabVisit/1/StressImaging",
+						"type": "integer"
+					},
+					"ThromTherapy": {
+						"id": "/CathLabVisit/1/ThromTherapy",
+						"type": "integer"
+					},
+					"UpdatedBy": {
+						"id": "/CathLabVisit/1/UpdatedBy",
+						"type": "integer"
+					},
+					"UpdatedByName": {
+						"id": "/CathLabVisit/1/UpdatedByName",
+						"type": "string"
+					},
+					"UpdatedDate": {
+						"id": "/CathLabVisit/1/UpdatedDate",
+						"type": "object",
+						"properties": {}
+					}
+				}
+			}
+		},
+		"ChronicLungDisease": {
+			"id": "/ChronicLungDisease",
+			"type": "integer"
+		},
+		"CreatedBy": {
+			"id": "/CreatedBy",
+			"type": "integer"
+		},
+		"CreatedDate": {
+			"id": "/CreatedDate",
+			"type": "object",
+			"properties": {}
+		},
+		"CurrentDialysis": {
+			"id": "/CurrentDialysis",
+			"type": "integer"
+		},
+		"Diabetes": {
+			"id": "/Diabetes",
+			"type": "integer"
+		},
+		"Discharge": {
+			"id": "/Discharge",
+			"type": "object",
+			"properties": {
+				"CABG": {
+					"id": "/Discharge/CABG",
+					"type": "integer"
+				},
+				"CreatedBy": {
+					"id": "/Discharge/CreatedBy",
+					"type": "integer"
+				},
+				"CreatedDate": {
+					"id": "/Discharge/CreatedDate",
+					"type": "object",
+					"properties": {}
+				},
+				"DCDate": {
+					"id": "/Discharge/DCDate",
+					"type": "object",
+					"properties": {}
+				},
+				"DCLVEF": {
+					"id": "/Discharge/DCLVEF",
+					"type": "integer"
+				},
+				"DCLVEFNA": {
+					"id": "/Discharge/DCLVEFNA",
+					"type": "boolean"
+				},
+				"DCLocation": {
+					"id": "/Discharge/DCLocation",
+					"type": "integer"
+				},
+				"DCStatus": {
+					"id": "/Discharge/DCStatus",
+					"type": "integer"
+				},
+				"DC_CardRehab": {
+					"id": "/Discharge/DC_CardRehab",
+					"type": "integer"
+				},
+				"HospStatus": {
+					"id": "/Discharge/HospStatus",
+					"type": "integer"
+				},
+				"Med": {
+					"id": "/Discharge/Med",
+					"type": "array",
+					"items": {
+						"id": "/Discharge/Med/8",
+						"type": "object",
+						"properties": {
+							"CreatedBy": {
+								"id": "/Discharge/Med/8/CreatedBy",
+								"type": "integer"
+							},
+							"CreatedDate": {
+								"id": "/Discharge/Med/8/CreatedDate",
+								"type": "object",
+								"properties": {}
+							},
+							"MedAdmin": {
+								"id": "/Discharge/Med/8/MedAdmin",
+								"type": "integer"
+							},
+							"MedID": {
+								"id": "/Discharge/Med/8/MedID",
+								"type": "integer"
+							},
+							"UpdatedBy": {
+								"id": "/Discharge/Med/8/UpdatedBy",
+								"type": "integer"
+							},
+							"UpdatedByName": {
+								"id": "/Discharge/Med/8/UpdatedByName",
+								"type": "string"
+							},
+							"UpdatedDate": {
+								"id": "/Discharge/Med/8/UpdatedDate",
+								"type": "object",
+								"properties": {}
+							},
+							"uidMedication": {
+								"id": "/Discharge/Med/8/uidMedication",
+								"type": "integer"
+							}
+						}
+					}
+				},
+				"ObjectUID": {
+					"id": "/Discharge/ObjectUID",
+					"type": "object",
+					"properties": {}
+				},
+				"OtherMajorSurgery": {
+					"id": "/Discharge/OtherMajorSurgery",
+					"type": "integer"
+				},
+				"UpdatedBy": {
+					"id": "/Discharge/UpdatedBy",
+					"type": "integer"
+				},
+				"UpdatedByName": {
+					"id": "/Discharge/UpdatedByName",
+					"type": "string"
+				},
+				"UpdatedDate": {
+					"id": "/Discharge/UpdatedDate",
+					"type": "object",
+					"properties": {}
+				}
+			}
+		},
+		"Dyslipidemia": {
+			"id": "/Dyslipidemia",
+			"type": "integer"
+		},
+		"FamilyHxCAD": {
+			"id": "/FamilyHxCAD",
+			"type": "integer"
+		},
+		"FlagDeleted": {
+			"id": "/FlagDeleted",
+			"type": "boolean"
+		},
+		"Height": {
+			"id": "/Height",
+			"type": "integer"
+		},
+		"Hypertension": {
+			"id": "/Hypertension",
+			"type": "integer"
+		},
+		"InsIHS": {
+			"id": "/InsIHS",
+			"type": "boolean"
+		},
+		"InsMedicaid": {
+			"id": "/InsMedicaid",
+			"type": "boolean"
+		},
+		"InsMedicare": {
+			"id": "/InsMedicare",
+			"type": "boolean"
+		},
+		"InsMilitary": {
+			"id": "/InsMilitary",
+			"type": "boolean"
+		},
+		"InsNonUS": {
+			"id": "/InsNonUS",
+			"type": "boolean"
+		},
+		"InsNone": {
+			"id": "/InsNone",
+			"type": "boolean"
+		},
+		"InsPrivate": {
+			"id": "/InsPrivate",
+			"type": "boolean"
+		},
+		"InsState": {
+			"id": "/InsState",
+			"type": "boolean"
+		},
+		"NCDRPatientID": {
+			"id": "/NCDRPatientID",
+			"type": "object",
+			"properties": {}
+		}
+	}
+}

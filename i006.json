@@ -1,0 +1,863 @@
+{
+  "AdmtSource": 2,
+  "ArrivalDate": {
+    "$date": "2011-04-01T04:00:00.000Z"
+  },
+  "ArrivalTime": "15:00:00",
+  "BookMarkRecord": false,
+  "ObjectUID": {
+    "$numberLong": "525"
+  },
+  "PatientGUID": {
+    "$binary": "MS+/+vEwREWnFA7tdje5rw==",
+    "$type": "03"
+  },
+  "PriorCABG": 0,
+  "PriorCVD": 0,
+  "PriorHF": 0,
+  "PriorMI": 1,
+  "PriorPAD": 0,
+  "PriorPCI": 0,
+  "RegistryID": 151,
+  "Smoker": 0,
+  "SystemAlert": false,
+  "UpdatedBy": 546,
+  "UpdatedByName": "Anthony Smithn",
+  "UpdatedDate": {
+    "$date": "2011-03-23T14:28:57.590Z"
+  },
+  "ValveSurgery": 0,
+  "Weight": 100,
+  "ZipCode": "20037",
+  "ZipCodeNA": false,
+  "_id": {
+    "$oid": "553a9cabf3639b735df838f7"
+  },
+  "CathLabVisit": [{
+    "AA_BetaBlockers": 1,
+    "AA_CaChannel": 1,
+    "AA_LongActingNitrates": 1,
+    "AA_OtherAgent": 0,
+    "AA_Ranolazine": 0,
+    "AcessSite": 1,
+    "AnginalClass": 5,
+    "AntiAnginalMed": 1,
+    "CADPresentation": 5,
+    "CMRStressTest": 0,
+    "CardiacCTA": 0,
+    "CardioLVSD": 0,
+    "ClosureMethodNA": false,
+    "ContrastVol": 150,
+    "CorCalciumScore": 0,
+    "CreatedBy": 18558,
+    "CreatedDate": {
+      "$date": "2011-03-23T14:35:25.023Z"
+    },
+    "DiagnosticCath": 1,
+    "Events": {
+      "CreatedDate": {
+        "$date": "2011-03-23T14:35:04.917Z"
+      },
+      "PostBleed": 0,
+      "PostCVA": 0,
+      "PostCardiogenicShock": 0,
+      "PostDialysis": 0,
+      "PostHF": 0,
+      "PostMI": 0,
+      "PostOtherVasComp": 0,
+      "PostTamponade": 0,
+      "PostTransfusion": 0,
+      "UpdatedBy": 18558,
+      "UpdatedByName": "s s",
+      "UpdatedDate": {
+        "$date": "2011-03-23T14:46:27.643Z"
+      }
+    },
+    "ExerciseStressTest": 0,
+    "FlagDeleted": false,
+    "FluroDose": 5000,
+    "FluroTime": 5,
+    "IABP": 0,
+    "MVSupport": 0,
+    "ObjectUID": {
+      "$numberLong": "320"
+    },
+    "OnsetDate": {
+      "$date": "2011-03-29T04:00:00.000Z"
+    },
+    "OnsetTime": "06:00:00",
+    "OnsetTimeEst": true,
+    "OnsetTimeNA": false,
+    "OtherProcedure": 0,
+    "PCI": 1,
+    "PeriopEval": 0,
+    "Prior2weeksHF": 0,
+    "PriorCardiacArrest": 0,
+    "PriorCardioShock": 0,
+    "ProcedureDate": {
+      "$date": "2011-04-03T04:00:00.000Z"
+    },
+    "ProcedureTime": "11:00:00",
+    "Procedures": {
+      "DiagCath": {
+        "CardiacTransplant": 0,
+        "CreatedBy": 18558,
+        "CreatedDate": {
+          "$date": "2011-03-23T14:37:15.147Z"
+        },
+        "DCathLName": "asdf",
+        "DCathStatus": 2,
+        "DCathTreatment": 3,
+        "DiagCorAngio": 1,
+        "LeftHeartCath": 1,
+        "ObjectUID": {
+          "$numberLong": "136"
+        },
+        "UpdatedBy": 18558,
+        "UpdatedByName": "s s",
+        "UpdatedDate": {
+          "$date": "2011-03-23T14:37:15.147Z"
+        },
+        "uidCathLabVisit": {
+          "$numberLong": "320"
+        },
+        "uidOperator": 13
+      },
+      "PCI": {
+        "CreatedBy": 18558,
+        "CreatedDate": {
+          "$date": "2011-03-23T14:38:20.617Z"
+        },
+        "Device": [{
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T14:54:32.487Z"
+          },
+          "DeviceCounter": 1,
+          "FlagDeleted": false,
+          "ICDevDimenReq": "N",
+          "ICDevID": 144,
+          "Lesion": [{
+            "$numberLong": "290"
+          }, {
+            "$numberLong": "291"
+          }],
+          "ObjectUID": {
+            "$numberLong": "589"
+          },
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T14:54:32.487Z"
+          },
+          "uidICDevice": 144
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T14:54:32.487Z"
+          },
+          "DeviceCounter": 2,
+          "FlagDeleted": false,
+          "ICDevDimenReq": "Y",
+          "ICDevID": 96,
+          "Lesion": [{
+            "$numberLong": "292"
+          }],
+          "ObjectUID": {
+            "$numberLong": "590"
+          },
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T14:54:32.487Z"
+          },
+          "uidICDevice": 96
+        }],
+        "DissectionSeg": 0,
+        "Lesion": [{
+          "BifurcationLesion": 0,
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T14:42:55.207Z"
+          },
+          "CulpritArtery": 1,
+          "Device": [{
+            "$numberLong": "589"
+          }],
+          "DeviceDeployed": 1,
+          "FlagDeleted": false,
+          "GuidewireLesion": 1,
+          "LesionCounter": 1,
+          "LesionGraft": 3,
+          "LesionLength": 5,
+          "LesonComplexty": 1,
+          "LocGraft": 3,
+          "ObjectUID": {
+            "$numberLong": "290"
+          },
+          "PostProcTIMI": 4,
+          "PreProcTIMI": 2,
+          "PrevTreatedLesion": 0,
+          "StenosisPostProc": 10,
+          "StenosisPriorTreat": 90,
+          "Thrombus": 0,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T14:54:32.487Z"
+          }
+        }, {
+          "BifurcationLesion": 0,
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T14:53:39.580Z"
+          },
+          "Device": [{
+            "$numberLong": "590"
+          }],
+          "DeviceDeployed": 1,
+          "FFR": 1,
+          "FFRatio": 1,
+          "FlagDeleted": false,
+          "GuidewireLesion": 1,
+          "IVUS": 1,
+          "LesionCounter": 2,
+          "LesionGraft": 0,
+          "LesionLength": 25,
+          "LesonComplexty": 2,
+          "ObjectUID": {
+            "$numberLong": "292"
+          },
+          "PostProcTIMI": 4,
+          "PreProcTIMI": 2,
+          "PrevLesionTime": 5,
+          "PrevTreatedLesion": 1,
+          "PreviousStent": 0,
+          "StenosisPostProc": 10,
+          "StenosisPriorTreat": 70,
+          "Thrombus": 0,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T14:53:39.580Z"
+          }
+        }],
+        "Med": [{
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T14:53:18.783Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 2,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T14:53:55.970Z"
+          },
+          "uidMedication": 1
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T14:53:18.783Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 3,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T14:53:55.970Z"
+          },
+          "uidMedication": 2
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T14:53:18.783Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 4,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T14:53:55.970Z"
+          },
+          "uidMedication": 3
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T14:53:18.783Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 5,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T14:53:55.970Z"
+          },
+          "uidMedication": 4
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T14:53:18.783Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 6,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T14:53:55.970Z"
+          },
+          "uidMedication": 5
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T14:53:18.783Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 7,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T14:53:55.970Z"
+          },
+          "uidMedication": 6
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T14:53:18.783Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 8,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T14:53:55.970Z"
+          },
+          "uidMedication": 7
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T14:53:18.783Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 9,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T14:53:55.970Z"
+          },
+          "uidMedication": 8
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T14:53:18.783Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 1,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T14:53:55.970Z"
+          },
+          "uidMedication": 17
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T14:53:18.783Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 18,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T14:53:55.970Z"
+          },
+          "uidMedication": 48
+        }],
+        "ObjectUID": {
+          "$numberLong": "213"
+        },
+        "PCICardioShock": 0,
+        "PCILName": "asdf",
+        "PCIStatus": 2,
+        "PCIndication": 6,
+        "PerfSeg": 0,
+        "PrePCILVEF": 45,
+        "PrePCILVEFNA": false,
+        "UpdatedBy": 18558,
+        "UpdatedByName": "s s",
+        "UpdatedDate": {
+          "$date": "2011-03-23T14:54:32.487Z"
+        },
+        "uidCathLabVisit": {
+          "$numberLong": "320"
+        },
+        "uidOperator": 13
+      }
+    },
+    "SPECTStressTest": 0,
+    "StressEcho": 0,
+    "StressImaging": 1,
+    "UpdatedBy": 18558,
+    "UpdatedByName": "s s",
+    "UpdatedDate": {
+      "$date": "2011-03-23T14:49:31.267Z"
+    }
+  }, {
+    "AA_BetaBlockers": 1,
+    "AA_CaChannel": 1,
+    "AA_LongActingNitrates": 0,
+    "AA_OtherAgent": 0,
+    "AA_Ranolazine": 0,
+    "AcessSite": 1,
+    "AnginalClass": 5,
+    "AntiAnginalMed": 1,
+    "CADPresentation": 6,
+    "CardioLVSD": 0,
+    "ClosureMethodNA": false,
+    "CreatedBy": 18558,
+    "CreatedDate": {
+      "$date": "2011-03-23T15:04:13.250Z"
+    },
+    "DiagnosticCath": 0,
+    "Events": {
+      "CreatedDate": {
+        "$date": "2011-03-23T15:04:06.950Z"
+      },
+      "PostBleed": 0,
+      "PostCVA": 0,
+      "PostCardiogenicShock": 0,
+      "PostDialysis": 0,
+      "PostHF": 0,
+      "PostMI": 0,
+      "PostOtherVasComp": 0,
+      "PostTamponade": 0,
+      "PostTransfusion": 0,
+      "UpdatedBy": 18558,
+      "UpdatedByName": "s s",
+      "UpdatedDate": {
+        "$date": "2011-03-23T15:11:42.700Z"
+      }
+    },
+    "FlagDeleted": false,
+    "IABP": 0,
+    "MVSupport": 0,
+    "ObjectUID": {
+      "$numberLong": "323"
+    },
+    "OnsetDate": {
+      "$date": "2011-04-03T04:00:00.000Z"
+    },
+    "OnsetTime": "00:15:00",
+    "OnsetTimeEst": false,
+    "OnsetTimeNA": false,
+    "OtherProcedure": 0,
+    "PCI": 1,
+    "PeriopEval": 1,
+    "Prior2weeksHF": 0,
+    "PriorCardiacArrest": 0,
+    "PriorCardioShock": 0,
+    "ProcedureDate": {
+      "$date": "2011-04-03T04:00:00.000Z"
+    },
+    "ProcedureTime": "01:00:00",
+    "Procedures": {
+      "PCI": {
+        "CreatedBy": 18558,
+        "CreatedDate": {
+          "$date": "2011-03-23T15:08:30.253Z"
+        },
+        "Device": [{
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T15:10:43.890Z"
+          },
+          "DeviceCounter": 1,
+          "FlagDeleted": false,
+          "ICDevDimenReq": "Y",
+          "ICDevID": 96,
+          "Lesion": [{
+            "$numberLong": "294"
+          }],
+          "ObjectUID": {
+            "$numberLong": "594"
+          },
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T15:10:43.890Z"
+          },
+          "uidICDevice": 96
+        }],
+        "DissectionSeg": 0,
+        "FirstDevActiDate": {
+          "$date": "2011-04-03T04:00:00.000Z"
+        },
+        "FirstDevActiTime": "01:15:00",
+        "Lesion": [{
+          "BifurcationLesion": 0,
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T15:10:34.817Z"
+          },
+          "CulpritArtery": 1,
+          "Device": [{
+            "$numberLong": "594"
+          }],
+          "DeviceDeployed": 1,
+          "FlagDeleted": false,
+          "GuidewireLesion": 1,
+          "LesionCounter": 1,
+          "LesionGraft": 0,
+          "LesionLength": 25,
+          "LesonComplexty": 2,
+          "ObjectUID": {
+            "$numberLong": "294"
+          },
+          "PostProcTIMI": 4,
+          "PreProcTIMI": 2,
+          "PrevLesionTime": 1,
+          "PrevTreatedLesion": 1,
+          "PreviousStent": 0,
+          "StenosisPostProc": 0,
+          "StenosisPriorTreat": 90,
+          "Thrombus": 1,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T15:10:43.890Z"
+          }
+        }],
+        "Med": [{
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T15:10:44.983Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 2,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T15:10:52.433Z"
+          },
+          "uidMedication": 1
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T15:10:44.983Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 3,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T15:10:52.433Z"
+          },
+          "uidMedication": 2
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T15:10:44.983Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 4,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T15:10:52.433Z"
+          },
+          "uidMedication": 3
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T15:10:44.983Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 5,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T15:10:52.433Z"
+          },
+          "uidMedication": 4
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T15:10:44.983Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 6,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T15:10:52.433Z"
+          },
+          "uidMedication": 5
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T15:10:44.983Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 7,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T15:10:52.433Z"
+          },
+          "uidMedication": 6
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T15:10:44.983Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 8,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T15:10:52.433Z"
+          },
+          "uidMedication": 7
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T15:10:44.983Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 9,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T15:10:52.433Z"
+          },
+          "uidMedication": 8
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T15:10:44.983Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 1,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T15:10:52.433Z"
+          },
+          "uidMedication": 17
+        }, {
+          "CreatedBy": 18558,
+          "CreatedDate": {
+            "$date": "2011-03-23T15:10:44.983Z"
+          },
+          "MedAdmin": 0,
+          "MedID": 18,
+          "UpdatedBy": 18558,
+          "UpdatedByName": "s s",
+          "UpdatedDate": {
+            "$date": "2011-03-23T15:10:52.433Z"
+          },
+          "uidMedication": 48
+        }],
+        "ObjectUID": {
+          "$numberLong": "215"
+        },
+        "PCICardioShock": 0,
+        "PCIDelayReason": 6,
+        "PCILName": "asdf",
+        "PCIStatus": 3,
+        "PCIndication": 1,
+        "PatientTransPCI": 0,
+        "PerfSeg": 0,
+        "PrePCILVEF": 45,
+        "PrePCILVEFNA": false,
+        "StemiFirstNoted": 1,
+        "SubECGDate": {
+          "$date": "2011-04-03T04:00:00.000Z"
+        },
+        "SubECGTime": "00:17:00",
+        "UpdatedBy": 18558,
+        "UpdatedByName": "s s",
+        "UpdatedDate": {
+          "$date": "2011-03-23T15:10:43.890Z"
+        },
+        "uidCathLabVisit": {
+          "$numberLong": "323"
+        },
+        "uidOperator": 13
+      }
+    },
+    "StressImaging": 0,
+    "ThromTherapy": 0,
+    "UpdatedBy": 18558,
+    "UpdatedByName": "s s",
+    "UpdatedDate": {
+      "$date": "2011-03-23T15:05:04.820Z"
+    }
+  }],
+  "ChronicLungDisease": 0,
+  "CreatedBy": 18558,
+  "CreatedDate": {
+    "$date": "2011-03-23T14:26:06.307Z"
+  },
+  "CurrentDialysis": 0,
+  "Diabetes": 0,
+  "Discharge": {
+    "CABG": 0,
+    "CreatedBy": 18558,
+    "CreatedDate": {
+      "$date": "2011-03-23T14:47:21.643Z"
+    },
+    "DCDate": {
+      "$date": "2011-04-05T04:00:00.000Z"
+    },
+    "DCLVEF": 45,
+    "DCLVEFNA": false,
+    "DCLocation": 1,
+    "DCStatus": 1,
+    "DC_CardRehab": 1,
+    "HospStatus": 3,
+    "Med": [{
+      "CreatedBy": 18558,
+      "CreatedDate": {
+        "$date": "2011-03-23T14:47:00.867Z"
+      },
+      "MedAdmin": 0,
+      "MedID": 10,
+      "UpdatedBy": 18558,
+      "UpdatedByName": "s s",
+      "UpdatedDate": {
+        "$date": "2011-03-23T14:47:43.690Z"
+      },
+      "uidMedication": 9
+    }, {
+      "CreatedBy": 18558,
+      "CreatedDate": {
+        "$date": "2011-03-23T14:47:00.867Z"
+      },
+      "MedAdmin": 0,
+      "MedID": 11,
+      "UpdatedBy": 18558,
+      "UpdatedByName": "s s",
+      "UpdatedDate": {
+        "$date": "2011-03-23T14:47:43.690Z"
+      },
+      "uidMedication": 10
+    }, {
+      "CreatedBy": 18558,
+      "CreatedDate": {
+        "$date": "2011-03-23T14:47:00.867Z"
+      },
+      "MedAdmin": 1,
+      "MedID": 12,
+      "UpdatedBy": 18558,
+      "UpdatedByName": "s s",
+      "UpdatedDate": {
+        "$date": "2011-03-23T14:47:43.690Z"
+      },
+      "uidMedication": 11
+    }, {
+      "CreatedBy": 18558,
+      "CreatedDate": {
+        "$date": "2011-03-23T14:47:00.867Z"
+      },
+      "MedAdmin": 1,
+      "MedID": 13,
+      "UpdatedBy": 18558,
+      "UpdatedByName": "s s",
+      "UpdatedDate": {
+        "$date": "2011-03-23T14:47:43.690Z"
+      },
+      "uidMedication": 12
+    }, {
+      "CreatedBy": 18558,
+      "CreatedDate": {
+        "$date": "2011-03-23T14:47:00.867Z"
+      },
+      "MedAdmin": 1,
+      "MedID": 14,
+      "UpdatedBy": 18558,
+      "UpdatedByName": "s s",
+      "UpdatedDate": {
+        "$date": "2011-03-23T14:47:43.690Z"
+      },
+      "uidMedication": 13
+    }, {
+      "CreatedBy": 18558,
+      "CreatedDate": {
+        "$date": "2011-03-23T14:47:00.867Z"
+      },
+      "MedAdmin": 0,
+      "MedID": 15,
+      "UpdatedBy": 18558,
+      "UpdatedByName": "s s",
+      "UpdatedDate": {
+        "$date": "2011-03-23T14:47:43.690Z"
+      },
+      "uidMedication": 14
+    }, {
+      "CreatedBy": 18558,
+      "CreatedDate": {
+        "$date": "2011-03-23T14:47:00.867Z"
+      },
+      "MedAdmin": 1,
+      "MedID": 16,
+      "UpdatedBy": 18558,
+      "UpdatedByName": "s s",
+      "UpdatedDate": {
+        "$date": "2011-03-23T14:47:43.690Z"
+      },
+      "uidMedication": 15
+    }, {
+      "CreatedBy": 18558,
+      "CreatedDate": {
+        "$date": "2011-03-23T14:47:00.867Z"
+      },
+      "MedAdmin": 0,
+      "MedID": 17,
+      "UpdatedBy": 18558,
+      "UpdatedByName": "s s",
+      "UpdatedDate": {
+        "$date": "2011-03-23T14:47:43.690Z"
+      },
+      "uidMedication": 16
+    }, {
+      "CreatedBy": 18558,
+      "CreatedDate": {
+        "$date": "2011-03-23T14:47:00.867Z"
+      },
+      "MedAdmin": 0,
+      "MedID": 19,
+      "UpdatedBy": 18558,
+      "UpdatedByName": "s s",
+      "UpdatedDate": {
+        "$date": "2011-03-23T14:47:43.690Z"
+      },
+      "uidMedication": 49
+    }],
+    "ObjectUID": {
+      "$numberLong": "192"
+    },
+    "OtherMajorSurgery": 1,
+    "UpdatedBy": 18558,
+    "UpdatedByName": "s s",
+    "UpdatedDate": {
+      "$date": "2011-03-23T14:47:21.643Z"
+    }
+  },
+  "Dyslipidemia": 1,
+  "FamilyHxCAD": 1,
+  "FlagDeleted": false,
+  "Height": 100,
+  "Hypertension": 1,
+  "InsIHS": false,
+  "InsMedicaid": false,
+  "InsMedicare": false,
+  "InsMilitary": false,
+  "InsNonUS": false,
+  "InsNone": false,
+  "InsPrivate": true,
+  "InsState": false,
+  "NCDRPatientID": {
+    "$numberLong": "205330"
+  }
+}

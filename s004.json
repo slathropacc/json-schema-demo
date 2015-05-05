@@ -1,0 +1,1464 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "AdmtSource": {
+      "id": "/AdmtSource",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "ArrivalDate": {
+      "id": "/ArrivalDate",
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {}
+    },
+    "ArrivalTime": {
+      "id": "/ArrivalTime",
+      "type": "string",
+      "minLength": 1
+    },
+    "BookMarkRecord": {
+      "id": "/BookMarkRecord",
+      "type": "boolean"
+    },
+    "ObjectUID": {
+      "id": "/ObjectUID",
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {}
+    },
+    "PatientGUID": {
+      "id": "/PatientGUID",
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {}
+    },
+    "PriorCABG": {
+      "id": "/PriorCABG",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "PriorCVD": {
+      "id": "/PriorCVD",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "PriorHF": {
+      "id": "/PriorHF",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "PriorMI": {
+      "id": "/PriorMI",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "PriorPAD": {
+      "id": "/PriorPAD",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "PriorPCI": {
+      "id": "/PriorPCI",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "RegistryID": {
+      "id": "/RegistryID",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "Smoker": {
+      "id": "/Smoker",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "SystemAlert": {
+      "id": "/SystemAlert",
+      "type": "boolean"
+    },
+    "UpdatedBy": {
+      "id": "/UpdatedBy",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "UpdatedByName": {
+      "id": "/UpdatedByName",
+      "type": "string",
+      "minLength": 1
+    },
+    "UpdatedDate": {
+      "id": "/UpdatedDate",
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {}
+    },
+    "ValveSurgery": {
+      "id": "/ValveSurgery",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "Weight": {
+      "id": "/Weight",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "ZipCode": {
+      "id": "/ZipCode",
+      "type": "string",
+      "minLength": 1
+    },
+    "ZipCodeNA": {
+      "id": "/ZipCodeNA",
+      "type": "boolean"
+    },
+    "_id": {
+      "id": "/_id",
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {}
+    },
+    "CathLabVisit": {
+      "id": "/CathLabVisit",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": false,
+      "additionalItems": true,
+      "items": {
+        "id": "/CathLabVisit/1",
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "AA_BetaBlockers": {
+            "id": "/CathLabVisit/1/AA_BetaBlockers",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "AA_CaChannel": {
+            "id": "/CathLabVisit/1/AA_CaChannel",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "AA_LongActingNitrates": {
+            "id": "/CathLabVisit/1/AA_LongActingNitrates",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "AA_OtherAgent": {
+            "id": "/CathLabVisit/1/AA_OtherAgent",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "AA_Ranolazine": {
+            "id": "/CathLabVisit/1/AA_Ranolazine",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "AcessSite": {
+            "id": "/CathLabVisit/1/AcessSite",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "AnginalClass": {
+            "id": "/CathLabVisit/1/AnginalClass",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "AntiAnginalMed": {
+            "id": "/CathLabVisit/1/AntiAnginalMed",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "CADPresentation": {
+            "id": "/CathLabVisit/1/CADPresentation",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "CardioLVSD": {
+            "id": "/CathLabVisit/1/CardioLVSD",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "ClosureMethodNA": {
+            "id": "/CathLabVisit/1/ClosureMethodNA",
+            "type": "boolean"
+          },
+          "CreatedBy": {
+            "id": "/CathLabVisit/1/CreatedBy",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "CreatedDate": {
+            "id": "/CathLabVisit/1/CreatedDate",
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {}
+          },
+          "DiagnosticCath": {
+            "id": "/CathLabVisit/1/DiagnosticCath",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "Events": {
+            "id": "/CathLabVisit/1/Events",
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "CreatedDate": {
+                "id": "/CathLabVisit/1/Events/CreatedDate",
+                "type": "object",
+                "additionalProperties": true,
+                "properties": {}
+              },
+              "PostBleed": {
+                "id": "/CathLabVisit/1/Events/PostBleed",
+                "type": "integer",
+                "multipleOf": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "exclusiveMaximum": false,
+                "exclusiveMinimum": false
+              },
+              "PostCVA": {
+                "id": "/CathLabVisit/1/Events/PostCVA",
+                "type": "integer",
+                "multipleOf": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "exclusiveMaximum": false,
+                "exclusiveMinimum": false
+              },
+              "PostCardiogenicShock": {
+                "id": "/CathLabVisit/1/Events/PostCardiogenicShock",
+                "type": "integer",
+                "multipleOf": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "exclusiveMaximum": false,
+                "exclusiveMinimum": false
+              },
+              "PostDialysis": {
+                "id": "/CathLabVisit/1/Events/PostDialysis",
+                "type": "integer",
+                "multipleOf": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "exclusiveMaximum": false,
+                "exclusiveMinimum": false
+              },
+              "PostHF": {
+                "id": "/CathLabVisit/1/Events/PostHF",
+                "type": "integer",
+                "multipleOf": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "exclusiveMaximum": false,
+                "exclusiveMinimum": false
+              },
+              "PostMI": {
+                "id": "/CathLabVisit/1/Events/PostMI",
+                "type": "integer",
+                "multipleOf": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "exclusiveMaximum": false,
+                "exclusiveMinimum": false
+              },
+              "PostOtherVasComp": {
+                "id": "/CathLabVisit/1/Events/PostOtherVasComp",
+                "type": "integer",
+                "multipleOf": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "exclusiveMaximum": false,
+                "exclusiveMinimum": false
+              },
+              "PostTamponade": {
+                "id": "/CathLabVisit/1/Events/PostTamponade",
+                "type": "integer",
+                "multipleOf": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "exclusiveMaximum": false,
+                "exclusiveMinimum": false
+              },
+              "PostTransfusion": {
+                "id": "/CathLabVisit/1/Events/PostTransfusion",
+                "type": "integer",
+                "multipleOf": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "exclusiveMaximum": false,
+                "exclusiveMinimum": false
+              },
+              "UpdatedBy": {
+                "id": "/CathLabVisit/1/Events/UpdatedBy",
+                "type": "integer",
+                "multipleOf": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "exclusiveMaximum": false,
+                "exclusiveMinimum": false
+              },
+              "UpdatedByName": {
+                "id": "/CathLabVisit/1/Events/UpdatedByName",
+                "type": "string",
+                "minLength": 1
+              },
+              "UpdatedDate": {
+                "id": "/CathLabVisit/1/Events/UpdatedDate",
+                "type": "object",
+                "additionalProperties": true,
+                "properties": {}
+              }
+            }
+          },
+          "FlagDeleted": {
+            "id": "/CathLabVisit/1/FlagDeleted",
+            "type": "boolean"
+          },
+          "IABP": {
+            "id": "/CathLabVisit/1/IABP",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "MVSupport": {
+            "id": "/CathLabVisit/1/MVSupport",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "ObjectUID": {
+            "id": "/CathLabVisit/1/ObjectUID",
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {}
+          },
+          "OnsetDate": {
+            "id": "/CathLabVisit/1/OnsetDate",
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {}
+          },
+          "OnsetTime": {
+            "id": "/CathLabVisit/1/OnsetTime",
+            "type": "string",
+            "minLength": 1
+          },
+          "OnsetTimeEst": {
+            "id": "/CathLabVisit/1/OnsetTimeEst",
+            "type": "boolean"
+          },
+          "OnsetTimeNA": {
+            "id": "/CathLabVisit/1/OnsetTimeNA",
+            "type": "boolean"
+          },
+          "OtherProcedure": {
+            "id": "/CathLabVisit/1/OtherProcedure",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "PCI": {
+            "id": "/CathLabVisit/1/PCI",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "PeriopEval": {
+            "id": "/CathLabVisit/1/PeriopEval",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "Prior2weeksHF": {
+            "id": "/CathLabVisit/1/Prior2weeksHF",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "PriorCardiacArrest": {
+            "id": "/CathLabVisit/1/PriorCardiacArrest",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "PriorCardioShock": {
+            "id": "/CathLabVisit/1/PriorCardioShock",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "ProcedureDate": {
+            "id": "/CathLabVisit/1/ProcedureDate",
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {}
+          },
+          "ProcedureTime": {
+            "id": "/CathLabVisit/1/ProcedureTime",
+            "type": "string",
+            "minLength": 1
+          },
+          "Procedures": {
+            "id": "/CathLabVisit/1/Procedures",
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "PCI": {
+                "id": "/CathLabVisit/1/Procedures/PCI",
+                "type": "object",
+                "additionalProperties": true,
+                "properties": {
+                  "CreatedBy": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/CreatedBy",
+                    "type": "integer",
+                    "multipleOf": 1,
+                    "maximum": 100,
+                    "minimum": 1,
+                    "exclusiveMaximum": false,
+                    "exclusiveMinimum": false
+                  },
+                  "CreatedDate": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/CreatedDate",
+                    "type": "object",
+                    "additionalProperties": true,
+                    "properties": {}
+                  },
+                  "Device": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/Device",
+                    "type": "array",
+                    "minItems": 1,
+                    "uniqueItems": false,
+                    "additionalItems": true,
+                    "items": {
+                      "id": "/CathLabVisit/1/Procedures/PCI/Device/0",
+                      "type": "object",
+                      "additionalProperties": true,
+                      "properties": {
+                        "CreatedBy": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Device/0/CreatedBy",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "CreatedDate": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Device/0/CreatedDate",
+                          "type": "object",
+                          "additionalProperties": true,
+                          "properties": {}
+                        },
+                        "DeviceCounter": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Device/0/DeviceCounter",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "FlagDeleted": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Device/0/FlagDeleted",
+                          "type": "boolean"
+                        },
+                        "ICDevDimenReq": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Device/0/ICDevDimenReq",
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "ICDevID": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Device/0/ICDevID",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "Lesion": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Device/0/Lesion",
+                          "type": "array",
+                          "minItems": 1,
+                          "uniqueItems": false,
+                          "additionalItems": true,
+                          "items": {
+                            "id": "/CathLabVisit/1/Procedures/PCI/Device/0/Lesion/0",
+                            "type": "object",
+                            "additionalProperties": true,
+                            "properties": {}
+                          }
+                        },
+                        "ObjectUID": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Device/0/ObjectUID",
+                          "type": "object",
+                          "additionalProperties": true,
+                          "properties": {}
+                        },
+                        "UpdatedBy": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Device/0/UpdatedBy",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "UpdatedByName": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Device/0/UpdatedByName",
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "UpdatedDate": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Device/0/UpdatedDate",
+                          "type": "object",
+                          "additionalProperties": true,
+                          "properties": {}
+                        },
+                        "uidICDevice": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Device/0/uidICDevice",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        }
+                      }
+                    }
+                  },
+                  "DissectionSeg": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/DissectionSeg",
+                    "type": "integer",
+                    "multipleOf": 1,
+                    "maximum": 100,
+                    "minimum": 1,
+                    "exclusiveMaximum": false,
+                    "exclusiveMinimum": false
+                  },
+                  "FirstDevActiDate": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/FirstDevActiDate",
+                    "type": "object",
+                    "additionalProperties": true,
+                    "properties": {}
+                  },
+                  "FirstDevActiTime": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/FirstDevActiTime",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "Lesion": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/Lesion",
+                    "type": "array",
+                    "minItems": 1,
+                    "uniqueItems": false,
+                    "additionalItems": true,
+                    "items": {
+                      "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0",
+                      "type": "object",
+                      "additionalProperties": true,
+                      "properties": {
+                        "BifurcationLesion": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/BifurcationLesion",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "CreatedBy": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/CreatedBy",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "CreatedDate": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/CreatedDate",
+                          "type": "object",
+                          "additionalProperties": true,
+                          "properties": {}
+                        },
+                        "CulpritArtery": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/CulpritArtery",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "Device": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/Device",
+                          "type": "array",
+                          "minItems": 1,
+                          "uniqueItems": false,
+                          "additionalItems": true,
+                          "items": {
+                            "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/Device/0",
+                            "type": "object",
+                            "additionalProperties": true,
+                            "properties": {}
+                          }
+                        },
+                        "DeviceDeployed": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/DeviceDeployed",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "FlagDeleted": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/FlagDeleted",
+                          "type": "boolean"
+                        },
+                        "GuidewireLesion": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/GuidewireLesion",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "LesionCounter": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/LesionCounter",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "LesionGraft": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/LesionGraft",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "LesionLength": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/LesionLength",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "LesonComplexty": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/LesonComplexty",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "ObjectUID": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/ObjectUID",
+                          "type": "object",
+                          "additionalProperties": true,
+                          "properties": {}
+                        },
+                        "PostProcTIMI": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/PostProcTIMI",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "PreProcTIMI": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/PreProcTIMI",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "PrevLesionTime": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/PrevLesionTime",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "PrevTreatedLesion": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/PrevTreatedLesion",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "PreviousStent": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/PreviousStent",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "StenosisPostProc": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/StenosisPostProc",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "StenosisPriorTreat": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/StenosisPriorTreat",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "Thrombus": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/Thrombus",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "UpdatedBy": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/UpdatedBy",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "UpdatedByName": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/UpdatedByName",
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "UpdatedDate": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Lesion/0/UpdatedDate",
+                          "type": "object",
+                          "additionalProperties": true,
+                          "properties": {}
+                        }
+                      }
+                    }
+                  },
+                  "Med": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/Med",
+                    "type": "array",
+                    "minItems": 1,
+                    "uniqueItems": false,
+                    "additionalItems": true,
+                    "items": {
+                      "id": "/CathLabVisit/1/Procedures/PCI/Med/9",
+                      "type": "object",
+                      "additionalProperties": true,
+                      "properties": {
+                        "CreatedBy": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Med/9/CreatedBy",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "CreatedDate": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Med/9/CreatedDate",
+                          "type": "object",
+                          "additionalProperties": true,
+                          "properties": {}
+                        },
+                        "MedAdmin": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Med/9/MedAdmin",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "MedID": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Med/9/MedID",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "UpdatedBy": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Med/9/UpdatedBy",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        },
+                        "UpdatedByName": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Med/9/UpdatedByName",
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "UpdatedDate": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Med/9/UpdatedDate",
+                          "type": "object",
+                          "additionalProperties": true,
+                          "properties": {}
+                        },
+                        "uidMedication": {
+                          "id": "/CathLabVisit/1/Procedures/PCI/Med/9/uidMedication",
+                          "type": "integer",
+                          "multipleOf": 1,
+                          "maximum": 100,
+                          "minimum": 1,
+                          "exclusiveMaximum": false,
+                          "exclusiveMinimum": false
+                        }
+                      }
+                    }
+                  },
+                  "ObjectUID": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/ObjectUID",
+                    "type": "object",
+                    "additionalProperties": true,
+                    "properties": {}
+                  },
+                  "PCICardioShock": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/PCICardioShock",
+                    "type": "integer",
+                    "multipleOf": 1,
+                    "maximum": 100,
+                    "minimum": 1,
+                    "exclusiveMaximum": false,
+                    "exclusiveMinimum": false
+                  },
+                  "PCIDelayReason": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/PCIDelayReason",
+                    "type": "integer",
+                    "multipleOf": 1,
+                    "maximum": 100,
+                    "minimum": 1,
+                    "exclusiveMaximum": false,
+                    "exclusiveMinimum": false
+                  },
+                  "PCILName": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/PCILName",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "PCIStatus": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/PCIStatus",
+                    "type": "integer",
+                    "multipleOf": 1,
+                    "maximum": 100,
+                    "minimum": 1,
+                    "exclusiveMaximum": false,
+                    "exclusiveMinimum": false
+                  },
+                  "PCIndication": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/PCIndication",
+                    "type": "integer",
+                    "multipleOf": 1,
+                    "maximum": 100,
+                    "minimum": 1,
+                    "exclusiveMaximum": false,
+                    "exclusiveMinimum": false
+                  },
+                  "PatientTransPCI": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/PatientTransPCI",
+                    "type": "integer",
+                    "multipleOf": 1,
+                    "maximum": 100,
+                    "minimum": 1,
+                    "exclusiveMaximum": false,
+                    "exclusiveMinimum": false
+                  },
+                  "PerfSeg": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/PerfSeg",
+                    "type": "integer",
+                    "multipleOf": 1,
+                    "maximum": 100,
+                    "minimum": 1,
+                    "exclusiveMaximum": false,
+                    "exclusiveMinimum": false
+                  },
+                  "PrePCILVEF": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/PrePCILVEF",
+                    "type": "integer",
+                    "multipleOf": 1,
+                    "maximum": 100,
+                    "minimum": 1,
+                    "exclusiveMaximum": false,
+                    "exclusiveMinimum": false
+                  },
+                  "PrePCILVEFNA": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/PrePCILVEFNA",
+                    "type": "boolean"
+                  },
+                  "StemiFirstNoted": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/StemiFirstNoted",
+                    "type": "integer",
+                    "multipleOf": 1,
+                    "maximum": 100,
+                    "minimum": 1,
+                    "exclusiveMaximum": false,
+                    "exclusiveMinimum": false
+                  },
+                  "SubECGDate": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/SubECGDate",
+                    "type": "object",
+                    "additionalProperties": true,
+                    "properties": {}
+                  },
+                  "SubECGTime": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/SubECGTime",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "UpdatedBy": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/UpdatedBy",
+                    "type": "integer",
+                    "multipleOf": 1,
+                    "maximum": 100,
+                    "minimum": 1,
+                    "exclusiveMaximum": false,
+                    "exclusiveMinimum": false
+                  },
+                  "UpdatedByName": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/UpdatedByName",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "UpdatedDate": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/UpdatedDate",
+                    "type": "object",
+                    "additionalProperties": true,
+                    "properties": {}
+                  },
+                  "uidCathLabVisit": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/uidCathLabVisit",
+                    "type": "object",
+                    "additionalProperties": true,
+                    "properties": {}
+                  },
+                  "uidOperator": {
+                    "id": "/CathLabVisit/1/Procedures/PCI/uidOperator",
+                    "type": "integer",
+                    "multipleOf": 1,
+                    "maximum": 100,
+                    "minimum": 1,
+                    "exclusiveMaximum": false,
+                    "exclusiveMinimum": false
+                  }
+                }
+              }
+            }
+          },
+          "StressImaging": {
+            "id": "/CathLabVisit/1/StressImaging",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "ThromTherapy": {
+            "id": "/CathLabVisit/1/ThromTherapy",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "UpdatedBy": {
+            "id": "/CathLabVisit/1/UpdatedBy",
+            "type": "integer",
+            "multipleOf": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "exclusiveMaximum": false,
+            "exclusiveMinimum": false
+          },
+          "UpdatedByName": {
+            "id": "/CathLabVisit/1/UpdatedByName",
+            "type": "string",
+            "minLength": 1
+          },
+          "UpdatedDate": {
+            "id": "/CathLabVisit/1/UpdatedDate",
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {}
+          }
+        }
+      }
+    },
+    "ChronicLungDisease": {
+      "id": "/ChronicLungDisease",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "CreatedBy": {
+      "id": "/CreatedBy",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "CreatedDate": {
+      "id": "/CreatedDate",
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {}
+    },
+    "CurrentDialysis": {
+      "id": "/CurrentDialysis",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "Diabetes": {
+      "id": "/Diabetes",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "Discharge": {
+      "id": "/Discharge",
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "CABG": {
+          "id": "/Discharge/CABG",
+          "type": "integer",
+          "multipleOf": 1,
+          "maximum": 100,
+          "minimum": 1,
+          "exclusiveMaximum": false,
+          "exclusiveMinimum": false
+        },
+        "CreatedBy": {
+          "id": "/Discharge/CreatedBy",
+          "type": "integer",
+          "multipleOf": 1,
+          "maximum": 100,
+          "minimum": 1,
+          "exclusiveMaximum": false,
+          "exclusiveMinimum": false
+        },
+        "CreatedDate": {
+          "id": "/Discharge/CreatedDate",
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {}
+        },
+        "DCDate": {
+          "id": "/Discharge/DCDate",
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {}
+        },
+        "DCLVEF": {
+          "id": "/Discharge/DCLVEF",
+          "type": "integer",
+          "multipleOf": 1,
+          "maximum": 100,
+          "minimum": 1,
+          "exclusiveMaximum": false,
+          "exclusiveMinimum": false
+        },
+        "DCLVEFNA": {
+          "id": "/Discharge/DCLVEFNA",
+          "type": "boolean"
+        },
+        "DCLocation": {
+          "id": "/Discharge/DCLocation",
+          "type": "integer",
+          "multipleOf": 1,
+          "maximum": 100,
+          "minimum": 1,
+          "exclusiveMaximum": false,
+          "exclusiveMinimum": false
+        },
+        "DCStatus": {
+          "id": "/Discharge/DCStatus",
+          "type": "integer",
+          "multipleOf": 1,
+          "maximum": 100,
+          "minimum": 1,
+          "exclusiveMaximum": false,
+          "exclusiveMinimum": false
+        },
+        "DC_CardRehab": {
+          "id": "/Discharge/DC_CardRehab",
+          "type": "integer",
+          "multipleOf": 1,
+          "maximum": 100,
+          "minimum": 1,
+          "exclusiveMaximum": false,
+          "exclusiveMinimum": false
+        },
+        "HospStatus": {
+          "id": "/Discharge/HospStatus",
+          "type": "integer",
+          "multipleOf": 1,
+          "maximum": 100,
+          "minimum": 1,
+          "exclusiveMaximum": false,
+          "exclusiveMinimum": false
+        },
+        "Med": {
+          "id": "/Discharge/Med",
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": false,
+          "additionalItems": true,
+          "items": {
+            "id": "/Discharge/Med/8",
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "CreatedBy": {
+                "id": "/Discharge/Med/8/CreatedBy",
+                "type": "integer",
+                "multipleOf": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "exclusiveMaximum": false,
+                "exclusiveMinimum": false
+              },
+              "CreatedDate": {
+                "id": "/Discharge/Med/8/CreatedDate",
+                "type": "object",
+                "additionalProperties": true,
+                "properties": {}
+              },
+              "MedAdmin": {
+                "id": "/Discharge/Med/8/MedAdmin",
+                "type": "integer",
+                "multipleOf": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "exclusiveMaximum": false,
+                "exclusiveMinimum": false
+              },
+              "MedID": {
+                "id": "/Discharge/Med/8/MedID",
+                "type": "integer",
+                "multipleOf": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "exclusiveMaximum": false,
+                "exclusiveMinimum": false
+              },
+              "UpdatedBy": {
+                "id": "/Discharge/Med/8/UpdatedBy",
+                "type": "integer",
+                "multipleOf": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "exclusiveMaximum": false,
+                "exclusiveMinimum": false
+              },
+              "UpdatedByName": {
+                "id": "/Discharge/Med/8/UpdatedByName",
+                "type": "string",
+                "minLength": 1
+              },
+              "UpdatedDate": {
+                "id": "/Discharge/Med/8/UpdatedDate",
+                "type": "object",
+                "additionalProperties": true,
+                "properties": {}
+              },
+              "uidMedication": {
+                "id": "/Discharge/Med/8/uidMedication",
+                "type": "integer",
+                "multipleOf": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "exclusiveMaximum": false,
+                "exclusiveMinimum": false
+              }
+            }
+          }
+        },
+        "ObjectUID": {
+          "id": "/Discharge/ObjectUID",
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {}
+        },
+        "OtherMajorSurgery": {
+          "id": "/Discharge/OtherMajorSurgery",
+          "type": "integer",
+          "multipleOf": 1,
+          "maximum": 100,
+          "minimum": 1,
+          "exclusiveMaximum": false,
+          "exclusiveMinimum": false
+        },
+        "UpdatedBy": {
+          "id": "/Discharge/UpdatedBy",
+          "type": "integer",
+          "multipleOf": 1,
+          "maximum": 100,
+          "minimum": 1,
+          "exclusiveMaximum": false,
+          "exclusiveMinimum": false
+        },
+        "UpdatedByName": {
+          "id": "/Discharge/UpdatedByName",
+          "type": "string",
+          "minLength": 1
+        },
+        "UpdatedDate": {
+          "id": "/Discharge/UpdatedDate",
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {}
+        }
+      }
+    },
+    "Dyslipidemia": {
+      "id": "/Dyslipidemia",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "FamilyHxCAD": {
+      "id": "/FamilyHxCAD",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "FlagDeleted": {
+      "id": "/FlagDeleted",
+      "type": "boolean"
+    },
+    "Height": {
+      "id": "/Height",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "Hypertension": {
+      "id": "/Hypertension",
+      "type": "integer",
+      "multipleOf": 1,
+      "maximum": 100,
+      "minimum": 1,
+      "exclusiveMaximum": false,
+      "exclusiveMinimum": false
+    },
+    "InsIHS": {
+      "id": "/InsIHS",
+      "type": "boolean"
+    },
+    "InsMedicaid": {
+      "id": "/InsMedicaid",
+      "type": "boolean"
+    },
+    "InsMedicare": {
+      "id": "/InsMedicare",
+      "type": "boolean"
+    },
+    "InsMilitary": {
+      "id": "/InsMilitary",
+      "type": "boolean"
+    },
+    "InsNonUS": {
+      "id": "/InsNonUS",
+      "type": "boolean"
+    },
+    "InsNone": {
+      "id": "/InsNone",
+      "type": "boolean"
+    },
+    "InsPrivate": {
+      "id": "/InsPrivate",
+      "type": "boolean"
+    },
+    "InsState": {
+      "id": "/InsState",
+      "type": "boolean"
+    },
+    "NCDRPatientID": {
+      "id": "/NCDRPatientID",
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {}
+    }
+  }
+}
